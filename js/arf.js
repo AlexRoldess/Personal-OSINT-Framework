@@ -11,7 +11,7 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
-var vis = d3.select("#body").append("svg:svg")
+var vis = d3.select("#div1").append("svg:svg")
     .attr("width", width + margin[1] + margin[3])
     .attr("height", height + margin[0] + margin[2])
   .append("svg:g")
