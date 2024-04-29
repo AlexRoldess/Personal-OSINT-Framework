@@ -5,7 +5,7 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://google.com/"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase1.html"
       },
       {
         "children": [
@@ -307,6 +307,41 @@
         }],
         "name": "OpSec",
         "type": "folder"
+      },
+      {
+        "children": [
+        {
+          "name": "AutomatingOSINT.com",
+          "type": "url",
+          "url": "http://register.automatingosint.com/"
+        },
+        {
+          "name": "Open Source Intelligence Techniques",
+          "type": "url",
+          "url": "https://inteltechniques.com/"
+        },
+        {
+          "name": "Plessas",
+          "type": "url",
+          "url": "https://plessas.net/online-training"
+        },
+        {
+          "name": "SANS SEC487 OSINT Class",
+          "type": "url",
+          "url": "https://www.sans.org/sec487"
+        },
+        {
+          "name": "NetBootCamp",
+          "type": "url",
+          "url": "https://netbootcamp.org/trainingprogram/"
+        },
+        {
+          "name": "Smart Questions",
+          "type": "url",
+          "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+        }],
+        "name": "Training",
+        "type": "folder"
       }
     ],
     "name": "Phase 1: Preparation",
@@ -317,7 +352,7 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://google.com/"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase2.html"
       },
       {
         "name": "TO DO",
@@ -333,7 +368,7 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://google.com/"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase3.html"
       },
       {
       "children": [
@@ -4762,42 +4797,8 @@
       }],
       "name": "Tools",
       "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "AutomatingOSINT.com",
-        "type": "url",
-        "url": "http://register.automatingosint.com/"
-      },
-      {
-        "name": "Open Source Intelligence Techniques",
-        "type": "url",
-        "url": "https://inteltechniques.com/"
-      },
-      {
-        "name": "Plessas",
-        "type": "url",
-        "url": "https://plessas.net/online-training"
-      },
-      {
-        "name": "SANS SEC487 OSINT Class",
-        "type": "url",
-        "url": "https://www.sans.org/sec487"
-      },
-      {
-        "name": "NetBootCamp",
-        "type": "url",
-        "url": "https://netbootcamp.org/trainingprogram/"
-      },
-      {
-        "name": "Smart Questions",
-        "type": "url",
-        "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-      }],
-      "name": "Training",
-      "type": "folder"
-    }],
+    }
+  ],
     "name": "Phase 3: Execution and Analysis",
     "type": "folder"
   },
@@ -4806,7 +4807,7 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://google.com/"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase4.html"
       },
       {
         "children": [
