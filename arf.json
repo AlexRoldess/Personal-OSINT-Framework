@@ -1,10 +1,16 @@
 {
   "children": [
   {
+    "children": [
+      {}
+    ],
     "name": "Phase 1: Preparation",
     "type": "folder"
   },
   {
+    "children": [
+      {}
+    ],
     "name": "Phase 2: Objectives Definition",
     "type": "folder"
   },
@@ -4878,6 +4884,9 @@
     "type": "folder"
   },
   {
+    "children": [
+      {}
+    ],
     "name": "Phase 4: Documentation",
     "type": "folder"
   }],
