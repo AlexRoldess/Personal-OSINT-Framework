@@ -4811,8 +4811,6 @@
       },
       {
         "children": [
-        {
-          "children": [
           {
             "name": "Hunchly (T)",
             "type": "url",
@@ -4905,11 +4903,8 @@
           "name": "Timeline JS3",
           "type": "url",
           "url": "http://timeline.knightlab.com/"
-        }],
-        "name": "Documentation",
-        "type": "folder"
-      }
-    ],
+        }
+      ],
     "name": "Phase 4: Documentation",
     "type": "folder"
   }],
