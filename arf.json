@@ -5,7 +5,12 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase1.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/phase1.html"
+      },
+      {
+        "name": "Tools Explanation",
+        "type": "url",
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools1.html"
       },
       {
         "children": [
@@ -30,13 +35,8 @@
             "name": "Pexels",
             "type": "url",
             "url": "https://www.pexels.com/"
-          },
-          {
-            "name": "Faker.js",
-            "type": "url",
-            "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"
           }],
-          "name": "Persona Creation",
+          "name": "Person Creation",
           "type": "folder"
         },
         {
@@ -352,12 +352,12 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase2.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/phase2.html"
       },
       {
-        "name": "TO DO",
+        "name": "List of data types",
         "type": "url",
-        "url": "https://google.com/"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/list-of-data-types.html"
       }
     ],
     "name": "Phase 2: Objectives Definition",
@@ -368,7 +368,12 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase3.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/phase3.html"
+      },
+      {
+        "name": "Tools Explanation",
+        "type": "url",
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools3.html"
       },
       {
       "children": [
@@ -4807,7 +4812,12 @@
       {
         "name": "Phase Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/phases-explanation/phase4.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/phase4.html"
+      },
+      {
+        "name": "Tools Explanation",
+        "type": "url",
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools4.html"
       },
       {
         "children": [
