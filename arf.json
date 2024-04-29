@@ -15,6 +15,56 @@
       {
         "children": [
         {
+          "name": "VMware Workstation Player (T)",
+          "type": "url",
+          "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
+        },
+        {
+          "name": "VirtualBox (T)",
+          "type": "url",
+          "url": "https://www.virtualbox.org/"
+        },
+        {
+          "name": "Buscador OS (T)",
+          "type": "url",
+          "url": "https://inteltechniques.com/buscador/index.html"
+        },
+        {
+          "name": "Kali Linux OS (T)",
+          "type": "url",
+          "url": "https://www.kali.org/"
+        },
+        {
+          "name": "ParrotSec OS (T)",
+          "type": "url",
+          "url": "https://www.parrotsec.org/"
+        },
+        {
+          "name": "Microsoft Edge Development OS VMs (T)",
+          "type": "url",
+          "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
+        },
+        {
+          "name": "Subgraph OS (T)",
+          "type": "url",
+          "url": "https://subgraph.com/index.en.html"
+        },
+        {
+          "name": "Tails Live OS (T)",
+          "type": "url",
+          "url": "https://tails.boum.org/"
+        },
+        {
+          "name": "Whonix (T)",
+          "type": "url",
+          "url": "https://www.whonix.org/wiki/Main_Page"
+        }],
+        "name": "Virtual Machines",
+        "type": "folder"
+      },
+      {
+        "children": [
+        {
           "children": [
           {
             "name": "Fake Name Generator",
@@ -4713,76 +4763,6 @@
           "url": "https://github.com/sundowndev/PhoneInfoga"
         }],
         "name": "OSINT Automation",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "Low Hanging Fruit (T)",
-          "type": "url",
-          "url": "https://github.com/blindfuzzy/LHF"
-        }],
-        "name": "Pentesting Recon",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "VMware Workstation Player (T)",
-          "type": "url",
-          "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
-        },
-        {
-          "name": "VirtualBox (T)",
-          "type": "url",
-          "url": "https://www.virtualbox.org/"
-        },
-        {
-          "name": "Buscador OS (T)",
-          "type": "url",
-          "url": "https://inteltechniques.com/buscador/index.html"
-        },
-        {
-          "name": "Kali Linux OS (T)",
-          "type": "url",
-          "url": "https://www.kali.org/"
-        },
-        {
-          "name": "ParrotSec OS (T)",
-          "type": "url",
-          "url": "https://www.parrotsec.org/"
-        },
-        {
-          "name": "Microsoft Edge Development OS VMs (T)",
-          "type": "url",
-          "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
-        },
-        {
-          "name": "Subgraph OS (T)",
-          "type": "url",
-          "url": "https://subgraph.com/index.en.html"
-        },
-        {
-          "name": "Tails Live OS (T)",
-          "type": "url",
-          "url": "https://tails.boum.org/"
-        },
-        {
-          "name": "Whonix (T)",
-          "type": "url",
-          "url": "https://www.whonix.org/wiki/Main_Page"
-        }],
-        "name": "Virtual Machines",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "OWASP D4N155 (T)",
-          "type": "url",
-          "url": "https://github.com/OWASP/D4N155"
-        }],
-        "name": "Wordlist",
         "type": "folder"
       },
       {
