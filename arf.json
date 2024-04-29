@@ -10,7 +10,7 @@
       {
         "name": "Tools Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools1.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/tools-explanation/tools1.html"
       },
       {
         "children": [
@@ -373,7 +373,7 @@
       {
         "name": "Tools Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools3.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/tools-explanation/tools3.html"
       },
       {
       "children": [
@@ -4817,7 +4817,7 @@
       {
         "name": "Tools Explanation",
         "type": "url",
-        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/phases-explanation/tools4.html"
+        "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/tools-explanation/tools4.html"
       },
       {
         "children": [
