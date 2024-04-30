@@ -89,7 +89,7 @@
                "url": "http://www.andyroid.net/"
              },
              {
-               "name": "Nox App Player",
+               "name": "Nox App Player (T)",
                "type": "url",
                "url": "https://www.bignox.com/"
              }],
@@ -202,11 +202,6 @@
               }],
               "name": "Streaming Video",
               "type": "folder"
-            },
-            {
-              "name": "Truecaller (T)",
-              "type": "url",
-              "url": "https://play.google.com/store/apps/details?id=com.truecaller"
             }],
             "name": "Apps",
             "type": "folder"
