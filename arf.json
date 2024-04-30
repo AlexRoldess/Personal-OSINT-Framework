@@ -156,11 +156,6 @@
                 "url": "https://play.google.com/store/apps/details?id=kik.android"
               },
               {
-                "name": "Yik Yak (T)",
-                "type": "url",
-                "url": "https://play.google.com/store/apps/details?id=com.yik.yak"
-              },
-              {
                 "name": "LINE (T)",
                 "type": "url",
                 "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
@@ -178,7 +173,7 @@
               {
                 "name": "Flickr (T)",
                 "type": "url",
-                "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr"
+                "url": "https://play.google.com/store/apps/details?id=com.flickr.android"
               }],
               "name": "Pictures",
               "type": "folder"
@@ -188,17 +183,22 @@
               {
                 "name": "Periscope (T)",
                 "type": "url",
-                "url": "https://play.google.com/store/apps/details?id=tv.periscope.android"
+                "url": "https://play.google.com/store/apps/details?id=com.periscope.pscp"
               },
               {
-                "name": "Meerkat (T)",
+                "name": "Twitch (T)",
                 "type": "url",
-                "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat"
+                "url": "https://play.google.com/store/apps/details?id=tv.twitch.android.app"
               },
               {
                 "name": "Vine (T)",
                 "type": "url",
                 "url": "https://play.google.com/store/apps/details?id=co.vine.android"
+              },
+              {
+                "name": "Kick (T)",
+                "type": "url",
+                "url": "https://play.google.com/store/apps/details?id=com.kick.mobile"
               }],
               "name": "Streaming Video",
               "type": "folder"
