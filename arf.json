@@ -17,14 +17,14 @@
         {
           "children": [
           {
-            "name": "VMware Workstation Player (T)",
-            "type": "url",
-            "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
-          },
-          {
             "name": "VirtualBox (T)",
             "type": "url",
             "url": "https://www.virtualbox.org/"
+          },
+          {
+            "name": "VMware Workstation Player (T)",
+            "type": "url",
+            "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
           }],
           "name": "Virtualization Software",
           "type": "folder"
@@ -47,16 +47,6 @@
             "url": "https://www.parrotsec.org/"
           },
           {
-            "name": "Microsoft Edge Development OS VMs (T)",
-            "type": "url",
-            "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
-          },
-          {
-            "name": "Subgraph OS (T)",
-            "type": "url",
-            "url": "https://subgraph.com/index.en.html"
-          },
-          {
             "name": "Tails Live OS (T)",
             "type": "url",
             "url": "https://tails.boum.org/"
@@ -67,6 +57,16 @@
             "url": "https://www.whonix.org/wiki/Main_Page"
           }],
           "name": "Operating Systems",
+          "type": "folder"
+        },
+        {
+          "children": [
+          {
+            "name": "KaliVM with OSINT tools",
+            "type": "url",
+            "url": "https://www.google.com"
+          }],
+          "name": "Our VMs",
           "type": "folder"
         }],
         "name": "Virtual Machines",
