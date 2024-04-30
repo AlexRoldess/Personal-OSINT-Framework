@@ -55,18 +55,18 @@
             "name": "Whonix (T)",
             "type": "url",
             "url": "https://www.whonix.org/wiki/Main_Page"
+          },
+          {
+            "children": [
+            {
+              "name": "KaliVM with OSINT tools",
+              "type": "url",
+              "url": "https://www.google.com"
+            }],
+            "name": "Our VMs",
+            "type": "folder"
           }],
           "name": "Operating Systems",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "KaliVM with OSINT tools",
-            "type": "url",
-            "url": "https://www.google.com"
-          }],
-          "name": "Our VMs",
           "type": "folder"
         }],
         "name": "Virtual Machines",
