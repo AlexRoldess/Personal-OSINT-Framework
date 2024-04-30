@@ -71,6 +71,31 @@
         "children": [
         {
           "children": [
+            {
+             "children": [
+             {
+               "name": "Genymotion (T)",
+               "type": "url",
+               "url": "https://www.genymotion.com/"
+             },
+             {
+               "name": "BlueStacks 2 (T)",
+               "type": "url",
+               "url": "http://www.bluestacks.com/"
+             },
+             {
+               "name": "Andy Android Emulator (T)",
+               "type": "url",
+               "url": "http://www.andyroid.net/"
+             },
+             {
+               "name": "Nox App Player",
+               "type": "url",
+               "url": "https://www.bignox.com/"
+             }],
+             "name": "Emulation Tools",
+             "type": "folder"
+          },
           {
             "children": [
             {
