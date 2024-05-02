@@ -309,7 +309,7 @@
               "url": "https://www.dnsleaktest.com/"
             },
             {
-              "name": "TorGuard",
+              "name": "TorGuard DNS Leak Test",
               "type": "url",
               "url": "https://torguard.net/vpn-dns-leak-test.php"
             },
@@ -390,6 +390,16 @@
             "name": "Pexels",
             "type": "url",
             "url": "https://www.pexels.com/"
+          },
+          {
+            "name": "EmailOnDesk",
+            "type": "url",
+            "url": "https://www.emailondeck.com/es/"
+          },
+          {
+            "name": "ProtonMail",
+            "type": "url",
+            "url": "https://proton.me/es-es/mail"
           }],
           "name": "Person Creation",
           "type": "folder"
