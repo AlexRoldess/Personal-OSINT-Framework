@@ -54,9 +54,9 @@
           {
             "children": [
             {
-              "name": "KaliVM with OSINT tools",
+              "name": "KaliVM with OSINT tools (T)",
               "type": "url",
-              "url": "pending..."
+              "url": "TODO"
             }],
             "name": "Our VMs",
             "type": "folder"
@@ -222,31 +222,6 @@
         {
           "children": [
           {
-            "name": "Fake Name Generator",
-            "type": "url",
-            "url": "http://www.fakenamegenerator.com/"
-          },
-          {
-            "name": "Fake Identity Generator",
-            "type": "url",
-            "url": "http://justdelete.me/fake-identity-generator/"
-          },
-          {
-            "name": "Random User Generator",
-            "type": "url",
-            "url": "https://randomuser.me/"
-          },
-          {
-            "name": "Pexels",
-            "type": "url",
-            "url": "https://www.pexels.com/"
-          }],
-          "name": "Person Creation",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
             "children": [
             {
               "name": "Tor Download (T)",
@@ -407,7 +382,7 @@
               "name": "IP2Proxy",
               "type": "url",
               "url": "https://www.ip2proxy.com/"
-  
+    
             }],
             "name": "Proxy Tests",
             "type": "folder"
@@ -443,6 +418,61 @@
             "url": "http://www.locabrowser.com"
           }],
           "name": "Anonymous Browsing",
+          "type": "folder"
+        },
+        {
+          "children": [
+          {
+            "name": "Fake Person Generator",
+            "type": "url",
+            "url": "https://www.fakepersongenerator.com/"
+          },
+          {
+            "name": "Fake Name Generator",
+            "type": "url",
+            "url": "http://www.fakenamegenerator.com/"
+          },
+          {
+            "name": "Fake Identity Generator",
+            "type": "url",
+            "url": "http://justdelete.me/fake-identity-generator/"
+          },
+          {
+            "name": "Random User Generator",
+            "type": "url",
+            "url": "https://randomuser.me/"
+          },
+          {
+            "name": "This person does not exists",
+            "type": "url",
+            "url": "https://thispersondoesnotexist.com/"
+          },
+          {
+            "name": "1photoai",
+            "type": "url",
+            "url": "https://1photoai.com/"
+          },
+          {
+            "name": "Pexels",
+            "type": "url",
+            "url": "https://www.pexels.com/"
+          }],
+          "name": "Person Creation",
+          "type": "folder"
+        },
+        {
+          "children": [
+          {
+            "name": "Exiftool (T)",
+            "type": "url",
+            "url": "https://exiftool.org/"
+          },
+          {
+            "name": "Anonymouth - Document Anonymization (T)",
+            "type": "url",
+            "url": "https://github.com/psal/anonymouth"
+          }],
+          "name": "Metadata / Style",
           "type": "folder"
         },
         {
@@ -498,16 +528,6 @@
             "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
           }],
           "name": "Privacy / Clean Up",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "Anonymouth - Document Anonymization (T)",
-            "type": "url",
-            "url": "https://github.com/psal/anonymouth"
-          }],
-          "name": "Metadata / Style",
           "type": "folder"
         }],
         "name": "OpSec",
