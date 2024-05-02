@@ -465,24 +465,14 @@
           "url": "https://inteltechniques.com/"
         },
         {
-          "name": "Plessas",
-          "type": "url",
-          "url": "https://plessas.net/online-training"
-        },
-        {
           "name": "SANS SEC487 OSINT Class",
           "type": "url",
           "url": "https://www.sans.org/sec487"
         },
         {
-          "name": "NetBootCamp",
+          "name": "TraceLabs",
           "type": "url",
-          "url": "https://netbootcamp.org/trainingprogram/"
-        },
-        {
-          "name": "Smart Questions",
-          "type": "url",
-          "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+          "url": "https://www.tracelabs.org/"
         }],
         "name": "Training",
         "type": "folder"
