@@ -609,16 +609,6 @@
           "url": "https://github.com/laramies/theHarvester"
         },
         {
-          "name": "Infoga (T)",
-          "type": "url",
-          "url": "https://github.com/m4ll0k/infoga"
-        },
-        {
-          "name": "MailDB",
-          "type": "url",
-          "url": "https://maildb.io/"
-        },
-        {
           "name": "Skymem",
           "type": "url",
           "url": "http://www.skymem.info/"
@@ -633,11 +623,6 @@
       },
       {
         "children": [
-        {
-          "name": "Corporatate Email Formats",
-          "type": "url",
-          "url": "https://sites.google.com/site/emails4corporations/home"
-        },
         {
           "name": "Email Format",
           "type": "url",
@@ -663,11 +648,6 @@
       },
       {
         "children": [
-        {
-          "name": "MailTester",
-          "type": "url",
-          "url": "http://mailtester.com/testmail.php"
-        },
         {
           "name": "VerifyEmail",
           "type": "url",
@@ -714,14 +694,19 @@
           "url": "https://haveibeenpwned.com/"
         },
         {
+          "name": "Intelligence X",
+          "type": "url",
+          "url": "https://intelx.io/"
+        },
+        {
+          "name": "Breach forum",
+          "type": "url",
+          "url": "https://breachforums.st/"
+        },
+        {
           "name": "DeHashed (R)",
           "type": "url",
           "url": "https://dehashed.com/"
-        },
-        {
-          "name": "Vigilante.pw",
-          "type": "url",
-          "url": "https://www.vigilante.pw/"
         },
         {
           "name": "Ashley Madison Emails",
