@@ -1,15 +1,17 @@
-# OSINT Framework
+# Personal OSINT Framework
 
-http://osintframework.com
+[Pesonal-OSINT-Framework](https://alexroldess.github.io/Personal-OSINT-Framework/)
 
 ## Notes
-OSINT framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
+Personal OSINT Framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for money, but you should be able to get at least a portion of the available information for no cost.
 
-I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
+This Framework was originally created with an information security point of view. It is an adaptation of the general OSINT Framework, focused on personal OSINT.
 
 Please visit the framework at the link below and good hunting!
 
-https://osintframework.com
+https://alexroldess.github.io/Personal-OSINT-Framework/
+
+You can visit the original framework here: https://osintframework.com
 
 ### Legend
 (T) - Indicates a link to a tool that must be installed and run locally  
@@ -18,11 +20,10 @@ https://osintframework.com
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
 
 ### For Update Notifications
-Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
-Watch or star the project on Github: https://github.com/lockfale/osint-framework
+Watch or star the project on Github: https://github.com/AlexRoldess/Personal-OSINT-Framework
 
 ### Suggestions, Comments, Feedback
-Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
+Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github.
 
 ### Contribute with a GitHub Pull Request
 For new resources, please ensure that the site is available for public and free use.
@@ -39,6 +40,10 @@ For new resources, please ensure that the site is available for public and free 
 ```
 
 <ol start="2">
+  <li>Update the tools-explanation file for that phase, adding the tool and its explanation to the HTML code.</li>
+</ol>
+
+<ol start="3">
   <li>Submit pull request!</li>
 </ol>
 
@@ -46,6 +51,6 @@ Thank you!
 
 ## OSINT Framework Website
 
-https://osintframework.com
+[Pesonal-OSINT-Framework](https://alexroldess.github.io/Personal-OSINT-Framework/)
 
 Happy Hunting!
