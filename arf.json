@@ -4837,19 +4837,14 @@
             "url": "https://batchgeo.com/"
           },
           {
-            "name": "Google Street View - Hyperlapse",
-            "type": "url",
-            "url": "https://github.com/TeehanLax/Hyperlapse.js"
-          },
-          {
-            "name": "Teehan+Lax Labs - Hyperlapse",
-            "type": "url",
-            "url": "http://labs.teehanlax.com/project/hyperlapse"
-          },
-          {
             "name": "ZeeMaps",
             "type": "url",
             "url": "https://www.zeemaps.com/"
+          },
+          {
+            "name": "TeehanLax Hyperlapse",
+            "type": "url",
+            "url": "https://github.com/TeehanLax/Hyperlapse.js"
           }],
           "name": "Map Locations",
           "type": "folder"
