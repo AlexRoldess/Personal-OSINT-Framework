@@ -4782,9 +4782,9 @@
             "url": "https://monosnap.com/"
           },
           {
-            "name": "FRAPS (T)",
+            "name": "OBS (T)",
             "type": "url",
-            "url": "http://www.fraps.com/"
+            "url": "https://obsproject.com/"
           },
           {
             "name": "ShareX (T)",
@@ -4795,11 +4795,6 @@
             "name": "Greenshot (T)",
             "type": "url",
             "url": "https://getgreenshot.org/"
-          },
-          {
-            "name": "Full Page Screen Capture Chrome Extension (T)",
-            "type": "url",
-            "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
           }],
           "name": "Screen Capture",
           "type": "folder"
@@ -4812,7 +4807,7 @@
             "url": "http://www.hunch.ly/"
           },
           {
-            "name": "Page2Images (T)",
+            "name": "Page2Images",
             "type": "url",
             "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator"
           },
@@ -4822,7 +4817,7 @@
             "url": "http://archive.is/"
           },
           {
-            "name": "Web Page Saver",
+            "name": "Web Page Saver (T)",
             "type": "url",
             "url": "https://www.magnetforensics.com/free-tool-web-page-saver/"
           },
