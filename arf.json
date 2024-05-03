@@ -4758,22 +4758,58 @@
         "type": "url",
         "url": "https://alexroldess.github.io/Personal-OSINT-Framework/framework-resources/tools-explanation/tools4.html"
       },
-      {
+        {
+          "children": [
+            {
+              "name": "Project Libre (T)",
+              "type": "url",
+              "url": "https://www.projectlibre.com/"
+            },
+            {
+              "name": "Timeline JS3",
+              "type": "url",
+              "url": "http://timeline.knightlab.com/"
+            }
+          ],
+          "name": "Temporal Planning",
+          "type": "folder"
+        },
+        {
+          "children": [
+          {
+            "name": "Monosnap (T)",
+            "type": "url",
+            "url": "https://monosnap.com/"
+          },
+          {
+            "name": "FRAPS (T)",
+            "type": "url",
+            "url": "http://www.fraps.com/"
+          },
+          {
+            "name": "ShareX (T)",
+            "type": "url",
+            "url": "https://getsharex.com/"
+          },
+          {
+            "name": "Greenshot (T)",
+            "type": "url",
+            "url": "https://getgreenshot.org/"
+          },
+          {
+            "name": "Full Page Screen Capture Chrome Extension (T)",
+            "type": "url",
+            "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
+          }],
+          "name": "Screen Capture",
+          "type": "folder"
+        },
+        {
         "children": [
           {
             "name": "Hunchly (T)",
             "type": "url",
             "url": "http://www.hunch.ly/"
-          },
-          {
-            "name": "Fiddler (T)",
-            "type": "url",
-            "url": "https://www.telerik.com/download/fiddler"
-          },
-          {
-            "name": "Burp Suite (T)",
-            "type": "url",
-            "url": "https://portswigger.net/burp/download.html"
           },
           {
             "name": "Page2Images (T)",
@@ -4794,33 +4830,8 @@
             "name": "Snapper (T)",
             "type": "url",
             "url": "https://github.com/dxa4481/Snapper"
-          },
-          {
-            "name": "Full Page Screen Capture Chrome Extension (T)",
-            "type": "url",
-            "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
           }],
           "name": "Web Browsing",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "FRAPS (T)",
-            "type": "url",
-            "url": "http://www.fraps.com/"
-          },
-          {
-            "name": "ShareX (T)",
-            "type": "url",
-            "url": "https://getsharex.com/"
-          },
-          {
-            "name": "Greenshot (T)",
-            "type": "url",
-            "url": "https://getgreenshot.org/"
-          }],
-          "name": "Screen Capture",
           "type": "folder"
         },
         {
@@ -4847,11 +4858,6 @@
           }],
           "name": "Map Locations",
           "type": "folder"
-        },
-        {
-          "name": "Timeline JS3",
-          "type": "url",
-          "url": "http://timeline.knightlab.com/"
         }
       ],
     "name": "Phase 4: Documentation",
