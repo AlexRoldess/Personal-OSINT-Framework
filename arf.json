@@ -52,14 +52,9 @@
             "url": "https://www.whonix.org/wiki/Main_Page"
           },
           {
-            "children": [
-            {
-              "name": "KaliVM with OSINT tools (T)",
-              "type": "url",
-              "url": "TODO"
-            }],
-            "name": "Our VMs",
-            "type": "folder"
+            "name": "OSINT-Prepared VMs",
+            "type": "url",
+            "url": "https://github.com/AlexRoldess/Personal-OSINT-Framework/tree/master/osint-resources"
           }],
           "name": "Operating Systems",
           "type": "folder"

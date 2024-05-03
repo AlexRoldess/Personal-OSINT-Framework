@@ -1,0 +1,30 @@
+The "osint-tools-installation.sh" script installs a variety of OSINT tools 
+on Debian-based machines, such as Kali Linux.
+
+In this way, there are three options:
+
+    1. That you have a Debian-based machine, and you want to do the OSINT 
+    investigation from it. In this case, you would only have to run the 
+    script on your machine.
+
+    2. That you don't have a Debian-based machine, and you want to get one 
+    from scratch. In this case, you can download a VM with a Debian-based 
+    OS from the official pages, such as Kali Linux.
+
+    The way to do it is in the following guide: 
+    https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/
+
+    Then you should just run the script.
+
+    3. That you don't have a Debian-based machine, and tou want to get one
+    specifically optimized for OSINT tasks. In this case, you can download
+    the TraceLabs VM. It's a Kali VM incredibly optimized in resources and
+    storage for OSINT.
+
+    You can download it from its repository:
+    https://github.com/tracelabs/tlosint-vm/releases
+
+    Then you should just run the script.
+
+This way, you will have a Debian-based machine with multiple tools 
+installed for personal OSINT investigations.
