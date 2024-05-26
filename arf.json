@@ -569,9 +569,24 @@
       {
         "children": [
         {
+          "name": "Skymem",
+          "type": "url",
+          "url": "http://www.skymem.info/"
+        },
+        {
           "name": "Hunter (R)",
           "type": "url",
           "url": "https://hunter.io/"
+        },
+        {
+          "name": "theHarvester (T)",
+          "type": "url",
+          "url": "https://github.com/laramies/theHarvester"
+        },
+        {
+          "name": "GHunt (T)",
+          "type": "url",
+          "url": "https://github.com/mxrch/GHunt"
         },
         {
           "name": "VoilaNorbert (R)",
@@ -582,21 +597,6 @@
           "name": "Email to Address (R)",
           "type": "url",
           "url": "http://www.melissadata.com/lookups/emails.asp"
-        },
-        {
-          "name": "GHunt (T)",
-          "type": "url",
-          "url": "https://github.com/mxrch/GHunt"
-        },
-        {
-          "name": "theHarvester (T)",
-          "type": "url",
-          "url": "https://github.com/laramies/theHarvester"
-        },
-        {
-          "name": "Skymem",
-          "type": "url",
-          "url": "http://www.skymem.info/"
         }],
         "name": "Email Search",
         "type": "folder"
@@ -607,11 +607,6 @@
           "name": "Email Format",
           "type": "url",
           "url": "https://www.email-format.com/"
-        },
-        {
-          "name": "Toofr",
-          "type": "url",
-          "url": "https://www.toofr.com/"
         },
         {
           "name": "Email Permutator",
@@ -629,29 +624,9 @@
       {
         "children": [
         {
-          "name": "VerifyEmail",
+          "name": "MailboxValidator",
           "type": "url",
-          "url": "http://verify-email.org/"
-        },
-        {
-          "name": "Email Validator",
-          "type": "url",
-          "url": "http://e-mailvalidator.com/index.php"
-        },
-        {
-          "name": "MailScrap",
-          "type": "url",
-          "url": "https://mailscrap.com/"
-        },
-        {
-          "name": "BytePlant Email Validator",
-          "type": "url",
-          "url": "http://www.email-validator.net/"
-        },
-        {
-          "name": "Read Notify",
-          "type": "url",
-          "url": "http://www.readnotify.com/"
+          "url": "https://www.mailboxvalidator.com/demo"
         },
         {
           "name": "Email Reputation",
@@ -659,9 +634,14 @@
           "url": "https://emailrep.io/"
         },
         {
-          "name": "MailboxValidator",
+          "name": "Reacher Demo",
           "type": "url",
-          "url": "https://www.mailboxvalidator.com/demo"
+          "url": "https://reacher.email/"
+        },
+        {
+          "name": "VerifyEmail (R)",
+          "type": "url",
+          "url": "http://verify-email.org/"
         }],
         "name": "Email Verification",
         "type": "folder"
@@ -674,7 +654,7 @@
           "url": "https://haveibeenpwned.com/"
         },
         {
-          "name": "Intelligence X",
+          "name": "Intelligence X (R)",
           "type": "url",
           "url": "https://intelx.io/"
         },
@@ -684,19 +664,14 @@
           "url": "https://gist.github.com/fawazahmed0/79764af8a026a9a5b380728e67f786d4"
         },
         {
-          "name": "Breach forum",
+          "name": "Hudson Rock",
           "type": "url",
-          "url": "https://breachforums.st/"
+          "url": "https://www.hudsonrock.com/"
         },
         {
           "name": "DeHashed (R)",
           "type": "url",
           "url": "https://dehashed.com/"
-        },
-        {
-          "name": "Ashley Madison Emails",
-          "type": "url",
-          "url": "https://ashley.cynic.al/"
         }],
         "name": "Breach Data",
         "type": "folder"
