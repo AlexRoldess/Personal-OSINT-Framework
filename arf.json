@@ -569,14 +569,14 @@
       {
         "children": [
         {
-          "name": "ThatsThem",
-          "type": "url",
-          "url": "https://thatsthem.com/reverse-email-lookup"
-        },
-        {
-          "name": "Hunter",
+          "name": "Hunter (R)",
           "type": "url",
           "url": "https://hunter.io/"
+        },
+        {
+          "name": "VoilaNorbert (R)",
+          "type": "url",
+          "url": "https://www.voilanorbert.com/"
         },
         {
           "name": "Email to Address (R)",
@@ -584,24 +584,9 @@
           "url": "http://www.melissadata.com/lookups/emails.asp"
         },
         {
-          "name": "VoilaNorbert",
-          "type": "url",
-          "url": "https://www.voilanorbert.com/"
-        },
-        {
-          "name": "Reverse Genie Email",
-          "type": "url",
-          "url": "http://www.reversegenie.com/email.php"
-        },
-        {
           "name": "GHunt (T)",
           "type": "url",
           "url": "https://github.com/mxrch/GHunt"
-        },
-        {
-          "name": "OSINT Industries",
-          "type": "url",
-          "url": "https://osint.industries/"
         },
         {
           "name": "theHarvester (T)",
@@ -612,11 +597,6 @@
           "name": "Skymem",
           "type": "url",
           "url": "http://www.skymem.info/"
-        },
-        {
-          "name": "MailsHunt",
-          "type": "url",
-          "url": "https://mailshunt.com/"
         }],
         "name": "Email Search",
         "type": "folder"
@@ -697,6 +677,11 @@
           "name": "Intelligence X",
           "type": "url",
           "url": "https://intelx.io/"
+        },
+        {
+          "name": "Email & Password Collections",
+          "type": "url",
+          "url": "https://gist.github.com/fawazahmed0/79764af8a026a9a5b380728e67f786d4"
         },
         {
           "name": "Breach forum",
