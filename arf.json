@@ -741,54 +741,14 @@
             "url": "https://imgur.com/search"
           },
           {
-            "name": "Photobucket",
-            "type": "url",
-            "url": "http://photobucket.com/"
-          },
-          {
-            "name": "PicSearch",
-            "type": "url",
-            "url": "http://www.picsearch.com/"
-          },
-          {
-            "name": "Karma Decay",
-            "type": "url",
-            "url": "http://karmadecay.com/"
-          },
-          {
             "name": "Image Raider",
             "type": "url",
             "url": "https://www.imageraider.com/"
           },
           {
-            "name": "7Photos.net",
-            "type": "url",
-            "url": "http://7photos.net/"
-          },
-          {
-            "name": "Panoramio",
-            "type": "url",
-            "url": "http://www.panoramio.com/"
-          },
-          {
-            "name": "Current Location",
-            "type": "url",
-            "url": "http://current-location.com/"
-          },
-          {
-            "name": "Lakako Photo Search",
-            "type": "url",
-            "url": "http://www.lakako.com/"
-          },
-          {
             "name": "CC Search",
             "type": "url",
             "url": "https://ccsearch.creativecommons.org/"
-          },
-          {
-            "name": "CamFind App",
-            "type": "url",
-            "url": "http://camfindapp.com/"
           },
           {
             "name": "RevEye Reverse Image Search (T)",
@@ -799,16 +759,6 @@
             "name": "SmugMug Search",
             "type": "url",
             "url": "http://www.smugmug.com/search"
-          },
-          {
-            "name": "ImageNet",
-            "type": "url",
-            "url": "http://image-net.org/"
-          },
-          {
-            "name": "Places2",
-            "type": "url",
-            "url": "http://places2.csail.mit.edu/explore.html"
           },
           {
             "name": "Image Identification Project",
@@ -826,36 +776,6 @@
         {
           "children": [
           {
-            "name": "Webstigram",
-            "type": "url",
-            "url": "http://websta.me/search"
-          },
-          {
-            "name": "Instagram",
-            "type": "url",
-            "url": "https://www.instagram.com/"
-          },
-          {
-            "name": "Mini Instagram",
-            "type": "url",
-            "url": "http://mininsta.net/"
-          },
-          {
-            "name": "Imgrab",
-            "type": "url",
-            "url": "https://imgrab.com/"
-          },
-          {
-            "name": "Tofo.me",
-            "type": "url",
-            "url": "https://tofo.me/"
-          }],
-          "name": "Instagram",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
             "name": "Flickr",
             "type": "url",
             "url": "https://www.flickr.com/"
@@ -866,19 +786,9 @@
             "url": "https://www.flickr.com/map/"
           },
           {
-            "name": "My Pics Map",
-            "type": "url",
-            "url": "http://www.mypicsmap.com/"
-          },
-          {
             "name": "idGettr",
             "type": "url",
             "url": "http://idgettr.com/"
-          },
-          {
-            "name": "Flickr Hive Mind",
-            "type": "url",
-            "url": "http://flickrhivemind.net/"
           }],
           "name": "Flickr",
           "type": "folder"
@@ -891,34 +801,9 @@
             "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
           },
           {
-            "name": "Jeffrey's Exif Viewer",
-            "type": "url",
-            "url": "http://exif.regex.info/"
-          },
-          {
-            "name": "ExifViewer",
-            "type": "url",
-            "url": "http://www.exifviewer.org/"
-          },
-          {
-            "name": "Search by Exif",
-            "type": "url",
-            "url": "http://www.exif-search.com/"
-          },
-          {
             "name": "ImgOps",
             "type": "url",
             "url": "http://imgops.com/"
-          },
-          {
-            "name": "Metapicz",
-            "type": "url",
-            "url": "http://metapicz.com/#landing"
-          },
-          {
-            "name": "JPEGsnoop (T)",
-            "type": "url",
-            "url": "http://www.impulseadventure.com/photo/jpeg-snoop.html"
           },
           {
             "name": "GeoSetter",
@@ -926,7 +811,7 @@
             "url": "http://www.geosetter.de/en/"
           },
           {
-            "name":"xeuledoc - Fetch metadata about any public Google document",
+            "name":"xeuledoc (T)",
             "type":"url",
             "url":"https://github.com/Malfrats/xeuledoc"
           }
@@ -945,11 +830,6 @@
             "name": "Ghiro (T)",
             "type": "url",
             "url": "https://github.com/ghirensics/ghiro"
-          },
-          {
-            "name": "Camera Trace",
-            "type": "url",
-            "url": "http://www.cameratrace.com/trace"
           }],
           "name": "Forensics",
           "type": "folder"
@@ -957,7 +837,7 @@
         {
           "children": [
           {
-            "name": "Online OCR",
+            "name": "Soda Online OCR",
             "type": "url",
             "url": "http://www.free-ocr.com/"
           },
@@ -1007,14 +887,14 @@
             "url": "http://www.bing.com/videos"
           },
           {
+            "name": "Yahoo Video Search",
+            "type": "url",
+            "url": "http://video.search.yahoo.com/"
+          },
+          {
             "name": "Vimeo Search",
             "type": "url",
             "url": "https://vimeo.com/search?"
-          },
-          {
-            "name": "Internet Archive Videos",
-            "type": "url",
-            "url": "https://archive.org/details/opensource_movies"
           },
           {
             "name": "Vines (D)",
@@ -1027,34 +907,14 @@
             "url": "http://www.dogpile.com/"
           },
           {
-            "name": "Geo Search Tool",
-            "type": "url",
-            "url": "http://www.geosearchtool.com/"
-          },
-          {
-            "name": "blinkx Video Search",
-            "type": "url",
-            "url": "http://www.blinkx.com/"
-          },
-          {
             "name": "Facebook Live Map",
             "type": "url",
             "url": "https://www.facebook.com/livemap#"
           },
           {
-            "name": "LiveLeak",
+            "name": "Youtube",
             "type": "url",
-            "url": "https://www.liveleak.com/"
-          },
-          {
-            "name": "Metatube",
-            "type": "url",
-            "url": "http://www.metatube.com/"
-          },
-          {
-            "name": "Yahoo Video Search",
-            "type": "url",
-            "url": "http://video.search.yahoo.com/"
+            "url": "https://www.youtube.com/"
           }],
           "name": "Search",
           "type": "folder"
@@ -1067,44 +927,14 @@
             "url": "http://deturl.com/"
           },
           {
-            "name": "Print YouTube StoryBoard Instructions",
-            "type": "url",
-            "url": "http://www.labnol.org/internet/print-youtube-video/28217/"
-          },
-          {
-            "name": "Print Storyboard from Youtube",
-            "type": "url",
-            "url": "javascript:(function(){a=ytplayer.config.args.storyboard_spec;if(!a){alert(\"Sorry we cannot process this YouTube video. Could you please try another one\");exit();}b=a.split(\"|\");base=b[0].split(\"$\")[0]+\"2/M\";c=b[3].split(\"%23\");sigh=c[c.length-1];var imgs=\"\";t=ytplayer.config.args.length_seconds;n=Math.ceil(c[2]/(c[3]*c[4]));for(i=0;i<n;i++){imgs+=\"<PICTURE='\"+base+i+\".jpg%3Fsigh=\"+sigh+\"'><br/>\";}var title=ytplayer.config.args.title;msg=\"<body style='background-color:#444;color:#eee;margin:20px%20auto;width:90%;text-align:center'%3E%3Ch2%3ETITLE%3C/h2%3E%3Cdiv%3EIMAGES%3C/div%3E%3Cbr/%3E%3Cem%3E%3Ca%20href='http://labnol.org/?p=28217'%20style='text-decoration:none;color:#fff;font-style:bold'%3EPrinted%20using%20the%20YouTube%20bookmarklet.%3C/a%3E%3C/em%3E%3C/body%3E%22;msg=msg.replace(%22TITLE%22,title).replace(%22IMAGES%22,imgs).replace(/PICTURE/g,%22img%20src%22);var%20labnol=window.open();labnol.document.open();labnol.document.write(msg);labnol.document.close();})();"
-          },
-          {
-            "name": "Frame by Frame for YouTube (T)",
-            "type": "url",
-            "url": "https://chrome.google.com/webstore/detail/frame-by-frame-for-youtub/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB"
-          },
-          {
             "name": "YouTube Metadata",
             "type": "url",
             "url": "http://www.amnestyusa.org/citizenevidence/"
-          },
+          }
           {
-            "name": "TubeChop",
+            "name": "Print YouTube StoryBoard Instructions",
             "type": "url",
-            "url": "http://www.tubechop.com/"
-          },
-          {
-            "name": "YouTube Data Tools",
-            "type": "url",
-            "url": "https://tools.digitalmethods.net/netvizz/youtube/"
-          },
-          {
-            "name": "Hooktube",
-            "type": "url",
-            "url": "https://hooktube.com/"
-          },
-          {
-            "name": "yasiv-youtube",
-            "type": "url",
-            "url": "https://yasiv.com/youtube"
+            "url": "http://www.labnol.org/internet/print-youtube-video/28217/"
           }],
           "name": "Analyze / Record",
           "type": "folder"
