@@ -1320,7 +1320,7 @@
       {
         "children": [
         {
-          "name": "Skype Web Client",
+          "name": "Skype Web Client (R)",
           "type": "url",
           "url": "https://web.skype.com/"
         },
@@ -1340,31 +1340,11 @@
       {
         "children": [
         {
-          "name": "Snapchat Leak Checker",
-          "type": "url",
-          "url": "https://lastpass.com/snapchat/"
-        }],
-        "name": "Snapchat",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
           "name": "Kik Username (M)",
           "type": "url",
-          "url": "http://kik.me/%3Cusername%3E"
+          "url": "http://kik.me/<username>"
         }],
         "name": "Kik",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "YikMap",
-          "type": "url",
-          "url": "http://yikmap.com/"
-        }],
-        "name": "Yikyak",
         "type": "folder"
       }],
       "name": "Instant Messaging",
