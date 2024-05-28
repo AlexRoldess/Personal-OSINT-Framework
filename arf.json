@@ -1355,11 +1355,6 @@
       {
         "children": [
         {
-          "name": "Family Tree Now",
-          "type": "url",
-          "url": "http://www.familytreenow.com/"
-        },
-        {
           "name": "ThatsThem",
           "type": "url",
           "url": "https://thatsthem.com/name-address-search"
@@ -1380,29 +1375,14 @@
           "url": "http://www.ussearch.com/"
         },
         {
-          "name": "Melissa Data - People Finder (R)",
-          "type": "url",
-          "url": "http://www.melissadata.com/lookups/peoplefinder.asp"
-        },
-        {
           "name": "Advanced Background Checks",
           "type": "url",
           "url": "https://www.advancedbackgroundchecks.com/"
         },
         {
-          "name": "SalesMaple Contact Search",
-          "type": "url",
-          "url": "https://www.salesmaple.com/contacts/#!/"
-        },
-        {
           "name": "PeekYou",
           "type": "url",
           "url": "http://www.peekyou.com/"
-        },
-        {
-          "name": "Reverse Genie People",
-          "type": "url",
-          "url": "http://www.reversegenie.com/people.php"
         },
         {
           "name": "Wink People Search",
@@ -1418,16 +1398,6 @@
           "name": "Intelius",
           "type": "url",
           "url": "http://www.intelius.com/"
-        },
-        {
-          "name": "InfoSpace",
-          "type": "url",
-          "url": "http://infospace.com/"
-        },
-        {
-          "name": "Waatp",
-          "type": "url",
-          "url": "http://waatp.com/"
         },
         {
           "name": "Webmii",
@@ -1455,11 +1425,6 @@
           "url": "http://search.findmypast.com/search-world-records"
         },
         {
-          "name": "HowManyOfMe",
-          "type": "url",
-          "url": "http://howmanyofme.com/search/"
-        },
-        {
           "name": "FamilySearch.org",
           "type": "url",
           "url": "https://familysearch.org/search/"
@@ -1470,19 +1435,9 @@
           "url": "http://search.ancestry.com/"
         },
         {
-          "name": "Nuwber",
-          "type": "url",
-          "url": "https://nuwber.com/"
-        },
-        {
           "name": "Genealogy.com",
           "type": "url",
           "url": "http://www.genealogy.com/"
-        },
-        {
-          "name": "My Life",
-          "type": "url",
-          "url": "https://www.mylife.com/"
         },
         {
           "name": "AnyWho",
@@ -1505,11 +1460,6 @@
           "url": "https://cubib.com/"
         },
         {
-          "name": "True People Search",
-          "type": "url",
-          "url": "https://www.truepeoplesearch.com/"
-        },
-        {
           "name": "Fast People Search",
           "type": "url",
           "url": "https://www.fastpeoplesearch.com/"
@@ -1528,21 +1478,6 @@
           "name": "Registry Finder",
           "type": "url",
           "url": "https://www.registryfinder.com/"
-        },
-        {
-          "name": "My Registry",
-          "type": "url",
-          "url": "https://www.myregistry.com/"
-        },
-        {
-          "name": "Amazon Registry Search",
-          "type": "url",
-          "url": "https://www.amazon.com/gp/registry/search"
-        },
-        {
-          "name": "Bed, Bath, & Beyond Gift Registry",
-          "type": "url",
-          "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp"
         },
         {
           "name": "The Bump",
@@ -1613,11 +1548,6 @@
         "url": "https://www.ashleymadison.com/"
       },
       {
-        "name": "BeautifulPeople.com",
-        "type": "url",
-        "url": "https://www.beautifulpeople.com/en-US"
-      },
-      {
         "name": "Badoo",
         "type": "url",
         "url": "https://badoo.us/"
@@ -1631,11 +1561,6 @@
         "name": "Meetup",
         "type": "url",
         "url": "http://www.meetup.com/"
-      },
-      {
-        "name": "BlackPeopleMeet",
-        "type": "url",
-        "url": "http://www.blackpeoplemeet.com/"
       },
       {
         "name": "Bumble",
@@ -1683,16 +1608,6 @@
         "url": "https://whocalld.com/"
       },
       {
-        "name": "411",
-        "type": "url",
-        "url": "http://www.411.com/reverse_phone"
-      },
-      {
-        "name": "CallerID Test",
-        "type": "url",
-        "url": "http://www.calleridtest.com/"
-      },
-      {
         "name": "ThatsThem - Reverse Phone Lookup",
         "type": "url",
         "url": "https://thatsthem.com/reverse-phone-lookup"
@@ -1701,11 +1616,6 @@
         "name": "Twilio Lookup",
         "type": "url",
         "url": "https://www.twilio.com/lookup"
-      },
-      {
-        "name": "Fone Finder",
-        "type": "url",
-        "url": "http://www.fonefinder.net/"
       },
       {
         "name": "True Caller",
@@ -1738,19 +1648,9 @@
         "url": "http://mrnumber.com/1-888-742-0000"
       },
       {
-        "name": "CallerIDService.com (R)",
-        "type": "url",
-        "url": "http://www.calleridservice.com/"
-      },
-      {
         "name": "Next Caller (R)",
         "type": "url",
         "url": "https://nextcaller.com/"
-      },
-      {
-        "name": "Data24-7 (R)",
-        "type": "url",
-        "url": "https://www.data24-7.com/signup.php"
       },
       {
         "name": "HLR Lookup Portal (R)",
