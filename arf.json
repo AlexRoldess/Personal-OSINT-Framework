@@ -987,24 +987,9 @@
             "url": "https://www.scribd.com/"
           },
           {
-            "name": "DocJax",
-            "type": "url",
-            "url": "http://www.docjax.com/"
-          },
-          {
             "name": "WikiLeaks Search",
             "type": "url",
             "url": "https://search.wikileaks.org/advanced"
-          },
-          {
-            "name": "RECAP Court Doc Repo",
-            "type": "url",
-            "url": "http://archive.recapthelaw.org/"
-          },
-          {
-            "name": "filessoo.com",
-            "type": "url",
-            "url": "http://filessoo.com/"
           },
           {
             "name": "Leaked Cables",
@@ -1017,14 +1002,9 @@
         {
           "children": [
           {
-            "name": "Pastebin Trends",
+            "name": "Pastebin",
             "type": "url",
-            "url": "http://pastebin.com/trends"
-          },
-          {
-            "name": "Pastebin Alerts",
-            "type": "url",
-            "url": "http://andrewmohawk.com/pasteLert/"
+            "url": "https://pastebin.com/"
           },
           {
             "name": "Just Paste It",
@@ -1070,24 +1050,24 @@
           "url": "https://www.myfonts.com/WhatTheFont/"
         },
         {
-          "name": "Font Squirrel",
-          "type": "url",
-          "url": "https://www.fontsquirrel.com/matcherator"
-        },
-        {
-          "name": "IdentiFont",
-          "type": "url",
-          "url": "http://www.identifont.com/index.html"
-        },
-        {
           "name": "Font Spring",
           "type": "url",
           "url": "https://www.fontspring.com/matcherator"
         },
         {
+          "name": "Font Squirrel",
+          "type": "url",
+          "url": "https://www.fontsquirrel.com/matcherator"
+        },
+        {
           "name": "What Font Is",
           "type": "url",
           "url": "https://www.whatfontis.com/"
+        },
+        {
+          "name": "IdentiFont",
+          "type": "url",
+          "url": "http://www.identifont.com/index.html"
         }],
         "name": "Fonts",
         "type": "folder"
