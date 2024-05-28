@@ -1530,12 +1530,7 @@
           "url": "http://www.redditarchive.com/"
         },
         {
-          "name": "reddit metrics",
-          "type": "url",
-          "url": "http://redditmetrics.com/"
-        },
-        {
-          "name": "subreddits",
+          "name": "Subreddits",
           "type": "url",
           "url": "http://subreddits.org/"
         },
@@ -1550,17 +1545,17 @@
       {
         "children": [
         {
-          "name": "LinkedInt - LinkedIn Recon Tool",
+          "name": "LinkedInt Recon Tool (T)",
           "type": "url",
           "url": "https://github.com/vysec/LinkedInt"
         },
         {
-          "name": "ScrapedIn",
+          "name": "ScrapedIn (T)",
           "type": "url",
           "url": "https://github.com/dchrastil/ScrapedIn"
         },
         {
-          "name": "InSpy",
+          "name": "InSpy (T)",
           "type": "url",
           "url": "https://github.com/leapsecurity/InSpy"
         }],
@@ -1577,47 +1572,7 @@
         {
           "name": "Tumblr",
           "type": "url",
-          "url": "http://www.tumblr.com/tagged/search"
-        },
-        {
-          "name": "TheHoodUp (NSFW)",
-          "type": "url",
-          "url": "http://thehoodup.com/board/"
-        },
-        {
-          "name": "BlackPlanet.com - Member Find",
-          "type": "url",
-          "url": "http://www.blackplanet.com/user_search/index.html"
-        },
-        {
-          "name": "MiGente (Latino)",
-          "type": "url",
-          "url": "http://www.migente.com/user_search/index.html"
-        },
-        {
-          "name": "Asian Avenue",
-          "type": "url",
-          "url": "http://www.asianave.com/user_search/index.html"
-        },
-        {
-          "name": "Orkut (Brazil)",
-          "type": "url",
-          "url": "https://orkut.google.com/"
-        },
-        {
-          "name": "Odnoklassniki",
-          "type": "url",
-          "url": "http://ok.ru/"
-        },
-        {
-          "name": "raven (T)",
-          "type": "url",
-          "url": "https://github.com/0x09AL/raven"
-        },
-        {
-          "name": "Delicious",
-          "type": "url",
-          "url": "https://del.icio.us/"
+          "url": "http://www.tumblr.com/"
         }],
         "name": "Other Social Networks",
         "type": "folder"
@@ -1635,39 +1590,14 @@
           "url": "http://www.social-searcher.com/google-social-search/"
         },
         {
-          "name": "Periscope Search",
-          "type": "url",
-          "url": "http://www.perisearch.net/"
-        },
-        {
-          "name": "Periscope with known Username (M)",
-          "type": "url",
-          "url": "https://www.periscope.tv/%3Cusername%3E"
-        },
-        {
           "name": "SocialBlade.com",
           "type": "url",
           "url": "http://socialblade.com/"
         },
         {
-          "name": "Talkwalker Social Media Search (R)",
-          "type": "url",
-          "url": "https://www.talkwalker.com/social-media-analytics-search"
-        },
-        {
-          "name": "BuzzSumo Most Shared",
-          "type": "url",
-          "url": "https://app.buzzsumo.com/research/most-shared"
-        },
-        {
           "name": "PinGroupie",
           "type": "url",
           "url": "http://pingroupie.com/"
-        },
-        {
-          "name": "Searchlr",
-          "type": "url",
-          "url": "http://searchlr.net/"
         },
         {
           "name": "Google CSE for Telegram links",
