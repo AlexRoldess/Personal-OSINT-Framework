@@ -1137,19 +1137,14 @@
             "url": "https://twitter.com/search-advanced"
           },
           {
-            "name": "Twitter Location Search",
+            "name": "Twitter Location Search (M)",
             "type": "url",
-            "url": "https://twitter.com/search?q=geocode%3A36.1143855%2C-115.1727518%2C1km&src=typd"
+            "url": "https://twitter.com/search?q=geocode%3A<latitud>%2C<longitud>%2C<radio>km&src=typd"
           },
           {
-            "name": "Twitter Date Search",
+            "name": "Twitter Date Search (M)",
             "type": "url",
-            "url": "https://twitter.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02"
-          },
-          {
-            "name": "BackTweets",
-            "type": "url",
-            "url": "http://backtweets.com/"
+            "url": "https://twitter.com/search?q=<searchTerm>%20since:<YYYY-mm-dd>%20until:<YYYY-mm-dd>"
           },
           {
             "name": "Moz Profile Search",
@@ -1177,11 +1172,6 @@
               "name": "Twitonomy (R)",
               "type": "url",
               "url": "http://www.twitonomy.com/"
-            },
-            {
-              "name": "Foller.me Analytics",
-              "type": "url",
-              "url": "https://foller.me/"
             }],
             "name": "Profile",
             "type": "folder"
@@ -1189,17 +1179,7 @@
           {
             "children": [
             {
-              "name": "Tagboard",
-              "type": "url",
-              "url": "https://tagboard.com/"
-            },
-            {
-              "name": "RiteTag",
-              "type": "url",
-              "url": "https://ritetag.com/"
-            },
-            {
-              "name": "Trendsmap",
+              "name": "Trendsmap (R)",
               "type": "url",
               "url": "http://trendsmap.com/"
             },
@@ -1215,26 +1195,6 @@
             "name": "Tweet Metadata",
             "type": "url",
             "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf"
-          },
-          {
-            "name": "Birdwatcher (T)",
-            "type": "url",
-            "url": "https://github.com/michenriksen/birdwatcher"
-          },
-          {
-            "name": "Tinfoleak.py (T)",
-            "type": "url",
-            "url": "http://www.vicenteaguileradiaz.com/tools/"
-          },
-          {
-            "name": "DMI-TCAT (T)",
-            "type": "url",
-            "url": "https://github.com/digitalmethodsinitiative/dmi-tcat"
-          },
-          {
-            "name": "Twint (T)",
-            "type": "url",
-            "url": "https://github.com/twintproject/twint"
           }],
           "name": "Analytics",
           "type": "folder"
@@ -1255,11 +1215,6 @@
             "name": "One Million Tweet Map",
             "type": "url",
             "url": "http://onemilliontweetmap.com/"
-          },
-          {
-            "name": "Tweepsmap",
-            "type": "url",
-            "url": "http://tweepsmap.com/"
           }],
           "name": "Location / Mapping",
           "type": "folder"
