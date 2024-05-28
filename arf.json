@@ -945,26 +945,6 @@
       {
         "children": [
         {
-          "name": "SeeAllTheThings",
-          "type": "url",
-          "url": "https://github.com/baywolf88/seeallthethings"
-        },
-        {
-          "name": "Insecam",
-          "type": "url",
-          "url": "http://insecam.org/"
-        },
-        {
-          "name": "EarthCam",
-          "type": "url",
-          "url": "http://www.earthcam.com/"
-        }],
-        "name": "Webcams",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
           "children": [
           {
             "children": [
@@ -1060,6 +1040,26 @@
           "type": "folder"
         }],
         "name": "Documents",
+        "type": "folder"
+      },
+      {
+        "children": [
+        {
+          "name": "SeeAllTheThings",
+          "type": "url",
+          "url": "https://github.com/baywolf88/seeallthethings"
+        },
+        {
+          "name": "Insecam",
+          "type": "url",
+          "url": "http://insecam.org/"
+        },
+        {
+          "name": "EarthCam",
+          "type": "url",
+          "url": "http://www.earthcam.com/"
+        }],
+        "name": "Webcams",
         "type": "folder"
       },
       {
