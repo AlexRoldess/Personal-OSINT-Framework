@@ -1620,11 +1620,6 @@
           "url": "http://www.zillow.com/"
         },
         {
-          "name": "Emporis",
-          "type": "url",
-          "url": "https://www.emporis.com/"
-        },
-        {
           "name": "Homefacts",
           "type": "url",
           "url": "https://www.homefacts.com/"
@@ -1660,39 +1655,14 @@
           "url": "http://www.canlii.org/en/"
         },
         {
-          "name": "Most Wanted Criminal Pages",
-          "type": "url",
-          "url": "http://ancestorhunt.com/most-wanted-criminals-and-fugitives.htm"
-        },
-        {
           "name": "Black Book Online - Criminal Search",
           "type": "url",
           "url": "http://www.blackbookonline.info/criminalsearch.aspx"
         },
         {
-          "name": "CrimeReports.com",
-          "type": "url",
-          "url": "https://www.crimereports.com/"
-        },
-        {
-          "name": "Familywatchdog - Sex Offender Search",
-          "type": "url",
-          "url": "http://www.familywatchdog.us/"
-        },
-        {
-          "name": "Felon Spy",
-          "type": "url",
-          "url": "http://www.felonspy.com/search.html"
-        },
-        {
           "name": "The Inmate Locator",
           "type": "url",
           "url": "http://www.theinmatelocator.com/"
-        },
-        {
-          "name": "Criminal Searches",
-          "type": "url",
-          "url": "http://www.criminalsearches.com/"
         },
         {
           "name": "National Sex Offender Search",
@@ -1725,19 +1695,9 @@
           "url": "https://www.docketalarm.com/"
         },
         {
-          "name": "Google Scholar Case Law",
-          "type": "url",
-          "url": "https://scholar.google.com/"
-        },
-        {
           "name": "PACER",
           "type": "url",
           "url": "https://pacer.uscourts.gov/"
-        },
-        {
-          "name": "Free Law RECAP Archive",
-          "type": "url",
-          "url": "https://www.courtlistener.com/recap/"
         },
         {
           "name": "UniCourt",
@@ -1758,18 +1718,7 @@
             "name": "NC Salary DB",
             "type": "url",
             "url": "http://www.newsobserver.com/news/databases/state-pay/"
-          },
-          {
-            "name": "Gov Data Canada",
-            "type": "url",
-            "url": "https://govdataca.com/"
-          },
-          {
-            "name": "CA Salary DB",
-            "type": "url",
-            "url": "http://www.sacbee.com/site-services/databases/state-pay/article2642161.html"
           }
-
         ],
         "name": "Government Records",
         "type": "folder"
@@ -1806,11 +1755,6 @@
       },
       {
         "children": [
-        {
-          "name": "Death Check",
-          "type": "url",
-          "url": "http://www.melissadata.com/lookups/deathcheck.asp"
-        },
         {
           "name": "Find A Grave",
           "type": "url",
@@ -1852,11 +1796,6 @@
       {
         "children": [
         {
-          "name": "US Patent Office Search",
-          "type": "url",
-          "url": "http://patft.uspto.gov/netahtml/PTO/index.html"
-        },
-        {
           "name": "Google Patent Search",
           "type": "url",
           "url": "https://www.google.com/advanced_patent_search"
@@ -1882,24 +1821,9 @@
           "url": "http://www.politicalmoneyline.com/"
         },
         {
-          "name": "MelissaData - Campaign Contributions",
-          "type": "url",
-          "url": "http://www.melissadata.com/lookups/fec.asp"
-        },
-        {
-          "name": "Influence Explorer",
-          "type": "url",
-          "url": "http://data.influenceexplorer.com/#"
-        },
-        {
           "name": "US Federal Election Commission",
           "type": "url",
           "url": "http://www.fec.gov/finance/disclosure/norindsea.shtml"
-        },
-        {
-          "name": "Every Politician",
-          "type": "url",
-          "url": "http://everypolitician.org/"
         }],
         "name": "Political Records",
         "type": "folder"
@@ -1918,16 +1842,6 @@
         "name": "BRB Public Records",
         "type": "url",
         "url": "http://www.brbpub.com/"
-      },
-      {
-        "name": "GOVDATA - Das Datenportal für Deutschland (German)",
-        "type": "url",
-        "url": "https://www.govdata.de/"
-      },
-      {
-        "name": "Open-Data-Portal München (German)",
-        "type": "url",
-        "url": "https://www.opengov-muenchen.de/"
       }],
       "name": "Public Records",
       "type": "folder"
