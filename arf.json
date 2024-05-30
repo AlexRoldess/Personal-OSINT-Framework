@@ -1610,11 +1610,6 @@
       {
         "children": [
         {
-          "name": "Melissa Data - Property Viewer (R)",
-          "type": "url",
-          "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
-        },
-        {
           "name": "Zillow",
           "type": "url",
           "url": "http://www.zillow.com/"
@@ -1633,6 +1628,11 @@
           "name": "Redfin",
           "type": "url",
           "url": "https://www.redfin.com/"
+        },
+        {
+          "name": "Melissa Data - Property Viewer (R)",
+          "type": "url",
+          "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
         }],
         "name": "Property Records",
         "type": "folder"
@@ -1675,7 +1675,7 @@
           "url": "http://mugshots.com/"
         },
         {
-          "name": "judyrecords",
+          "name": "Judyrecords",
           "type": "url",
           "url": "https://www.judyrecords.com/"
         },
@@ -1703,11 +1703,6 @@
           "name": "UniCourt",
           "type": "url",
           "url": "https://unicourt.com/"
-        },
-        {
-          "name": "Federal Inmate Locator",
-          "type": "url",
-          "url": "https://www.bop.gov/inmateloc/"
         }],
         "name": "Court / Criminal Records",
         "type": "folder"
@@ -1734,11 +1729,6 @@
           "name": "VAT Research",
           "type": "url",
           "url": "https://vat-search.eu/"
-        },
-        {
-          "name": "NETR Online",
-          "type": "url",
-          "url": "http://publicrecords.netronline.com/"
         }],
         "name": "Financial / Tax Resources",
         "type": "folder"
@@ -1759,11 +1749,6 @@
           "name": "Find A Grave",
           "type": "url",
           "url": "http://www.findagrave.com/index.html"
-        },
-        {
-          "name": "GraveInfo",
-          "type": "url",
-          "url": "http://www.graveinfo.com/"
         }],
         "name": "Death Records",
         "type": "folder"
@@ -1811,11 +1796,6 @@
           "url": "http://www.followthemoney.org/"
         },
         {
-          "name": "OpenSecrets.org",
-          "type": "url",
-          "url": "http://www.opensecrets.org/"
-        },
-        {
           "name": "Political MoneyLine",
           "type": "url",
           "url": "http://www.politicalmoneyline.com/"
@@ -1837,11 +1817,6 @@
         "name": "The World Bank Open Data Catalog",
         "type": "url",
         "url": "http://datacatalog.worldbank.org/"
-      },
-      {
-        "name": "BRB Public Records",
-        "type": "url",
-        "url": "http://www.brbpub.com/"
       }],
       "name": "Public Records",
       "type": "folder"
