@@ -1981,11 +1981,6 @@
       {
         "children": [
         {
-          "name": "Vehicle Purchase Records",
-          "type": "url",
-          "url": "http://vin.place/"
-        },
-        {
           "name": "VIN Decoderz",
           "type": "url",
           "url": "http://www.vindecoderz.com/"
@@ -1996,11 +1991,6 @@
           "url": "https://thatsthem.com/vin-search"
         },
         {
-          "name": "Reverse Genie License Plates",
-          "type": "url",
-          "url": "http://www.reversegenie.com/plate.php"
-        },
-        {
           "name": "VinCheck",
           "type": "url",
           "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck"
@@ -2009,16 +1999,6 @@
           "name": "TRAVIC - Public Transportation Tracking",
           "type": "url",
           "url": "http://tracker.geops.ch/"
-        },
-        {
-          "name": "Vehicle Specifications Lookup",
-          "type": "url",
-          "url": "https://berla.co/products/ive/vehicle-lookup/"
-        },
-        {
-          "name": "License Plate Search",
-          "type": "url",
-          "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php"
         }],
         "name": "Vehicle Records",
         "type": "folder"
@@ -2036,19 +2016,9 @@
           "url": "https://www.flightradar24.com/"
         },
         {
-          "name": "World Aeronautical Database",
-          "type": "url",
-          "url": "http://worldaerodata.com/"
-        },
-        {
           "name": "ADS-B Exchange",
           "type": "url",
           "url": "https://www.adsbexchange.com/"
-        },
-        {
-          "name": "ADS-B.NL",
-          "type": "url",
-          "url": "https://www.ads-b.nl/index.php?pageno=9999"
         }],
         "name": "Air Traffic Records",
         "type": "folder"
@@ -2061,24 +2031,9 @@
           "url": "http://www.marinetraffic.com/"
         },
         {
-          "name": "Vessel Tracker",
+          "name": "Vessel Tracker (R)",
           "type": "url",
           "url": "http://www.vesseltracker.com/app"
-        },
-        {
-          "name": "Ship AIS",
-          "type": "url",
-          "url": "http://www.shipais.com/"
-        },
-        {
-          "name": "Shodan Ship Tracker",
-          "type": "url",
-          "url": "https://shiptracker.shodan.io/"
-        },
-        {
-          "name": "OpenSeaMap - The free nautical chart",
-          "type": "url",
-          "url": "http://www.openseamap.org"
         },
         {
           "name": "Vessel Finder",
@@ -2091,22 +2046,12 @@
       {
         "children": [
         {
-          "name": "Deutsche Bahn Open-Data-Portal (German)",
-          "type": "url",
-          "url": "http://data.deutschebahn.com/"
-        },
-        {
           "name": "OpenRailwayMap",
           "type": "url",
           "url": "https://www.openrailwaymap.org/"
         }],
         "name": "Railway Records",
         "type": "folder"
-      },
-      {
-        "name": "Satellite Tracking",
-        "type": "url",
-        "url": "http://www.n2yo.com/"
       },
       {
         "name": "Track-Trace",
