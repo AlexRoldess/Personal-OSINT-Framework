@@ -2076,11 +2076,6 @@
       {
         "children": [
         {
-          "name": "GPSVisualizer",
-          "type": "url",
-          "url": "http://www.gpsvisualizer.com/geocode"
-        },
-        {
           "name": "Military Grid Reference System Coordinates",
           "type": "url",
           "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
@@ -2101,24 +2096,9 @@
       {
         "children": [
         {
-          "name": "BatchGeo",
+          "name": "ZeeMaps",
           "type": "url",
-          "url": "https://batchgeo.com/"
-        },
-        {
-          "name": "Hyperlapse (T)",
-          "type": "url",
-          "url": "https://github.com/TeehanLax/Hyperlapse.js"
-        },
-        {
-          "name": "Teehan+Lax Labs - Hyperlapse",
-          "type": "url",
-          "url": "http://labs.teehanlax.com/project/hyperlapse"
-        },
-        {
-          "name": "Google Maps Streetview Player",
-          "type": "url",
-          "url": "http://brianfolts.com/driver/"
+          "url": "https://www.zeemaps.com/"
         },
         {
           "name": "ScribbleMaps",
@@ -2130,11 +2110,6 @@
       },
       {
         "children": [
-        {
-          "name": "OpenSignal",
-          "type": "url",
-          "url": "https://opensignal.com/"
-        },
         {
           "name": "AntennaSearch",
           "type": "url",
@@ -2179,26 +2154,6 @@
         "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
       },
       {
-        "name": "Flash Earth",
-        "type": "url",
-        "url": "http://www.flashearth.com/"
-      },
-      {
-        "name": "Historic Aerials",
-        "type": "url",
-        "url": "http://www.historicaerials.com/?javascript=&"
-      },
-      {
-        "name": "Google Maps Update Alerts",
-        "type": "url",
-        "url": "https://followyourworld.appspot.com/"
-      },
-      {
-        "name": "Google Earth Overlays",
-        "type": "url",
-        "url": "http://www.mgmaps.com/kml/#view"
-      },
-      {
         "name": "Yandex.Maps",
         "type": "url",
         "url": "https://yandex.com/maps/"
@@ -2214,11 +2169,6 @@
         "url": "http://map.baidu.com/"
       },
       {
-        "name": "Corona",
-        "type": "url",
-        "url": "http://corona.cast.uark.edu/"
-      },
-      {
         "name": "Daum (Korean)",
         "type": "url",
         "url": "http://map.daum.net/"
@@ -2229,29 +2179,9 @@
         "url": "http://map.naver.com/"
       },
       {
-        "name": "OpenStreetMap",
-        "type": "url",
-        "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100"
-      },
-      {
         "name": "EarthExplorer",
         "type": "url",
         "url": "https://earthexplorer.usgs.gov/"
-      },
-      {
-        "name": "OpenStreetCam",
-        "type": "url",
-        "url": "http://openstreetcam.org/"
-      },
-      {
-        "name": "Travel by Drone",
-        "type": "url",
-        "url": "http://travelbydrone.com/"
-      },
-      {
-        "name": "Hivemapper",
-        "type": "url",
-        "url": "https://hivemapper.com/"
       },
       {
         "name": "LandsatLook Viewer",
@@ -2259,49 +2189,9 @@
         "url": "https://landsatlook.usgs.gov/"
       },
       {
-        "name": "Sentinel2Look Viewer",
-        "type": "url",
-        "url": "https://landsatlook.usgs.gov/sentinel2/"
-      },
-      {
-        "name": "NEXRAD Data Inventory Search",
-        "type": "url",
-        "url": "https://www.ncdc.noaa.gov/nexradinv/"
-      },
-      {
         "name": "MapQuest",
         "type": "url",
         "url": "https://www.mapquest.com/"
-      },
-      {
-        "name": "OpenRailwayMap",
-        "type": "url",
-        "url": "http://www.openrailwaymap.org/"
-      },
-      {
-        "name": "OpenInfrastructureMap",
-        "type": "url",
-        "url": "openinframap.org/"
-      },
-      {
-        "name": "OpenStreetMap Routing Service",
-        "type": "url",
-        "url": "http://www.yournavigation.org/"
-      },
-      {
-        "name": "Hiking & Biking Map",
-        "type": "url",
-        "url": "http://hikebikemap.org/"
-      },
-      {
-        "name": "US Nav Guide Zip Code Data",
-        "type": "url",
-        "url": "http://www.usnaviguide.com/"
-      },
-      {
-        "name": "Wayback Imagery",
-        "type": "url",
-        "url": "https://livingatlas.arcgis.com/wayback/"
       }],
       "name": "Geolocation Tools / Maps",
       "type": "folder"
