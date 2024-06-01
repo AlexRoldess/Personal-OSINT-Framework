@@ -2591,69 +2591,14 @@
           "url": "https://archive.org/web/"
         },
         {
-          "name": "Archive.is",
-          "type": "url",
-          "url": "https://archive.is/"
-        },
-        {
-          "name": "WebCite",
-          "type": "url",
-          "url": "http://webcitation.org/query"
-        },
-        {
           "name": "Cached View",
           "type": "url",
           "url": "http://cachedview.com/"
         },
         {
-          "name": "Cached Pages",
-          "type": "url",
-          "url": "http://www.cachedpages.com/"
-        },
-        {
-          "name": "Textfiles.com",
-          "type": "url",
-          "url": "http://textfiles.com/"
-        },
-        {
-          "name": "UK Web Archive",
-          "type": "url",
-          "url": "http://www.webarchive.org.uk/ukwa/"
-        },
-        {
-          "name": "Screenshots.com",
-          "type": "url",
-          "url": "http://www.screenshots.com/"
-        },
-        {
-          "name": "Wayback Machine - Beta Search",
-          "type": "url",
-          "url": "https://web-beta.archive.org/#/"
-        },
-        {
-          "name": "Common Crawl",
-          "type": "url",
-          "url": "http://commoncrawl.org/"
-        },
-        {
           "name": "Wayback Machine Chrome Extension",
           "type": "url",
           "url": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak"
-        },
-        {
-          "name": "PDF My URL",
-          "type": "url",
-          "url": "http://pdfmyurl.com/"
-        },
-        {
-          "name": "Bounce",
-          "type": "url",
-          "url": "http://www.bounceapp.com/"
-        },
-        {
-          "name": "Browsershots",
-          "type": "url",
-          "url": "http://browsershots.org/"
         },
         {
           "name": "Waybackpack (T)",
@@ -2666,7 +2611,7 @@
       {
         "children": [
         {
-          "name": "Databases.Today",
+          "name": "Databases.Today (R)",
           "type": "url",
           "url": "https://databases.today/"
         },
@@ -2685,21 +2630,6 @@
       },
       {
         "children": [
-        {
-          "name": "Labled Faces in the Wild DB",
-          "type": "url",
-          "url": "http://vis-www.cs.umass.edu/lfw/"
-        },
-        {
-          "name": "VisualGenome",
-          "type": "url",
-          "url": "http://visualgenome.org/"
-        },
-        {
-          "name": "UCI Spambase Data Set",
-          "type": "url",
-          "url": "https://archive.ics.uci.edu/ml/datasets/Spambase"
-        },
         {
           "name": "Stanford Large Network Dataset Collection",
           "type": "url",
@@ -2733,8 +2663,6 @@
     },
     {
       "children": [
-      {
-        "children": [
         {
           "name": "DeepL Translator",
           "type": "url",
@@ -2761,16 +2689,6 @@
           "url": "http://translate.reference.com/"
         },
         {
-          "name": "Free Translation",
-          "type": "url",
-          "url": "https://www.freetranslation.com/"
-        },
-        {
-          "name": "Free Online Translation",
-          "type": "url",
-          "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html"
-        },
-        {
           "name": "Wiktionary",
           "type": "url",
           "url": "https://www.wiktionary.org/"
@@ -2790,44 +2708,6 @@
           "type": "url",
           "url": "http://www.urbandictionary.com/"
         }],
-        "name": "Text",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "Online OCR",
-          "type": "url",
-          "url": "http://www.free-ocr.com/"
-        },
-        {
-          "name": "i2OCR",
-          "type": "url",
-          "url": "http://www.i2ocr.com/"
-        },
-        {
-          "name": "New OCR",
-          "type": "url",
-          "url": "https://www.newocr.com/"
-        },
-        {
-          "name": "Online OCR",
-          "type": "url",
-          "url": "http://www.onlineocr.net/"
-        }],
-        "name": "Pictures",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "WhatTheFont",
-          "type": "url",
-          "url": "https://www.myfonts.com/WhatTheFont/"
-        }],
-        "name": "Analysis",
-        "type": "folder"
-      }],
       "name": "Language Translation",
       "type": "folder"
     },
