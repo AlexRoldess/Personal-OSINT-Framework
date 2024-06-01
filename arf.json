@@ -2241,44 +2241,14 @@
           "url": "https://www.google.com/advanced_search"
         },
         {
-          "name": "Shuriken",
-          "type": "url",
-          "url": "http://shuriken.pm"
-        },
-        {
-          "name": "iBoogie",
-          "type": "url",
-          "url": "http://www.iboogie.com/"
-        },
-        {
-          "name": "iZito",
-          "type": "url",
-          "url": "http://www.izito.com/"
-        },
-        {
-          "name": "Bing vs. Google",
-          "type": "url",
-          "url": "http://bvsg.org/"
-        },
-        {
-          "name": "Ixquick Search Engine",
-          "type": "url",
-          "url": "https://www.ixquick.com/"
-        },
-        {
           "name": "Advangle",
           "type": "url",
           "url": "http://advangle.com/"
         },
         {
-          "name": "Instya",
+          "name": "Biznar",
           "type": "url",
-          "url": "http://www.instya.com/#/web/"
-        },
-        {
-          "name": "Hulbee",
-          "type": "url",
-          "url": "https://hulbee.com/"
+          "url": "http://biznar.com/biznar/desktop/en/search.html"
         }],
         "name": "General Search",
         "type": "folder"
@@ -2286,29 +2256,19 @@
       {
         "children": [
         {
-          "name": "iSEEK",
+          "name": "iZito",
           "type": "url",
-          "url": "http://iseek.com/iseek/home.page"
+          "url": "http://www.izito.com/"
         },
         {
-          "name": "Biznar",
+          "name": "Instya",
           "type": "url",
-          "url": "http://biznar.com/biznar/desktop/en/search.html"
+          "url": "http://www.instya.com/#/web/"
         },
         {
           "name": "eTools.ch",
           "type": "url",
           "url": "https://www.etools.ch/"
-        },
-        {
-          "name": "searx.me",
-          "type": "url",
-          "url": "https://searx.me/"
-        },
-        {
-          "name": "WhosTalkin",
-          "type": "url",
-          "url": "http://www.whostalkin.com/"
         },
         {
           "name": "AnswerThePublic.com",
@@ -2336,17 +2296,12 @@
           "url": "https://nerdydata.com/search"
         },
         {
-          "name": "Gitrob (T)",
-          "type": "url",
-          "url": "https://github.com/michenriksen/gitrob"
-        },
-        {
           "name": "Github-Dorks (T)",
           "type": "url",
           "url": "https://github.com/techgaun/github-dorks"
         },
         {
-          "name": "GitLeaks",
+          "name": "GitLeaks (T)",
           "type": "url",
           "url": "https://github.com/zricethezav/gitleaks"
         }],
@@ -2356,14 +2311,9 @@
       {
         "children": [
         {
-          "name": "GlobalFile",
-          "type": "url",
-          "url": "https://globalfilesearch.com/"
-        },
-        {
           "name": "FTP Google Dork (D)",
           "type": "url",
-          "url": "https://www.google.com/search?q=inurl%3Aftp+-inurl%3Ahttp+-inurl%3Ahttps+ftpsearchterm"
+          "url": "https://www.google.com/search?q=inurl%3Aftp+-inurl%3Ahttp+-inurl%3Ahttps+ftp+<searchterm>"
         },
         {
           "name": "Napalm FTP",
@@ -2391,11 +2341,6 @@
           "url": "https://scholar.google.com/"
         },
         {
-          "name": "PubMed - National Center for Biotechnology Information",
-          "type": "url",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/"
-        },
-        {
           "name": "Social Science Research Network",
           "type": "url",
           "url": "http://ssrn.com/en/"
@@ -2411,19 +2356,9 @@
           "url": "https://www.wdl.org/en/"
         },
         {
-          "name": "JURN",
-          "type": "url",
-          "url": "http://jurn.org/#gsc.tab=0"
-        },
-        {
           "name": "HathiTrust Digital Library",
           "type": "url",
           "url": "https://www.hathitrust.org/"
-        },
-        {
-          "name": "UK National Archives",
-          "type": "url",
-          "url": "http://discovery.nationalarchives.gov.uk/"
         },
         {
           "name": "OpenGrey EU Papers",
@@ -2436,16 +2371,6 @@
           "url": "https://www.gpo.gov/fdsys/"
         },
         {
-          "name": "OpenDOAR",
-          "type": "url",
-          "url": "http://www.opendoar.org/search.php"
-        },
-        {
-          "name": "Microsoft Academic",
-          "type": "url",
-          "url": "https://academic.microsoft.com/"
-        },
-        {
           "name": "Science Direct",
           "type": "url",
           "url": "http://www.sciencedirect.com/"
@@ -2456,39 +2381,9 @@
           "url": "http://pqdtopen.proquest.com/search.html"
         },
         {
-          "name": "Think Tank Search",
-          "type": "url",
-          "url": "http://guides.library.harvard.edu/hks/think_tank_search"
-        },
-        {
-          "name": "Library Databases",
-          "type": "url",
-          "url": "http://guides.uflib.ufl.edu/az.php"
-        },
-        {
-          "name": "Copyscape Plagiarism Checker",
-          "type": "url",
-          "url": "http://copyscape.com/"
-        },
-        {
-          "name": "Lazy Scholar (T)",
-          "type": "url",
-          "url": "http://www.lazyscholar.org/"
-        },
-        {
           "name": "Open Access Scholarly Journals",
           "type": "url",
           "url": "http://www.pagepress.org/"
-        },
-        {
-          "name": "The Open Syllabus Project",
-          "type": "url",
-          "url": "http://explorer.opensyllabusproject.org/"
-        },
-        {
-          "name": "Science Publications",
-          "type": "url",
-          "url": "http://www.thescipub.com/"
         },
         {
           "name": "arXiv.org",
@@ -2526,19 +2421,9 @@
           "url": "http://newspaperarchive.com/"
         },
         {
-          "name": "PressReader.com",
-          "type": "url",
-          "url": "http://www.pressreader.com/"
-        },
-        {
           "name": "Newspaper Map",
           "type": "url",
           "url": "http://newspapermap.com/"
-        },
-        {
-          "name": "NewsBrief",
-          "type": "url",
-          "url": "http://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html"
         },
         {
           "name": "AllYouCanRead.com",
@@ -2549,26 +2434,6 @@
           "name": "World News",
           "type": "url",
           "url": "https://wn.com/#/search"
-        },
-        {
-          "name": "NewsNow.co.uk",
-          "type": "url",
-          "url": "http://www.newsnow.co.uk/h/"
-        },
-        {
-          "name": "Hubii",
-          "type": "url",
-          "url": "http://hubii.com/"
-        },
-        {
-          "name": "Inshorts",
-          "type": "url",
-          "url": "https://www.inshorts.com/en/read"
-        },
-        {
-          "name": "NewsBot",
-          "type": "url",
-          "url": "https://getnewsbot.com/"
         }],
         "name": "News Search",
         "type": "folder"
@@ -2584,16 +2449,6 @@
           "name": "AOL Search Database",
           "type": "url",
           "url": "http://search-id.com/"
-        },
-        {
-          "name": "EntityCube",
-          "type": "url",
-          "url": "http://entitycube.research.microsoft.com/"
-        },
-        {
-          "name": "FindTheData A Research Engine",
-          "type": "url",
-          "url": "http://www.findthedata.com/"
         }],
         "name": "Other Search",
         "type": "folder"
@@ -2601,29 +2456,9 @@
       {
         "children": [
         {
-          "name": "Million Short",
+          "name": "Million Short (R)",
           "type": "url",
           "url": "https://millionshort.com/"
-        },
-        {
-          "name": "SearchDiggity (T)",
-          "type": "url",
-          "url": "http://www.bishopfox.com/download/405/"
-        },
-        {
-          "name": "Scanner-inurlbr (T)",
-          "type": "url",
-          "url": "https://github.com/googleinurl/SCANNER-INURLBR"
-        },
-        {
-          "name": "Google Alerts",
-          "type": "url",
-          "url": "https://www.google.com/alerts#"
-        },
-        {
-          "name": "Google Custom Search Engine",
-          "type": "url",
-          "url": "https://cse.google.com/cse/"
         },
         {
           "name": "pagodo - Passive Google Dork (T)",
@@ -2634,11 +2469,6 @@
           "name": "Talkwalker Alerts",
           "type": "url",
           "url": "http://www.talkwalker.com/alerts"
-        },
-        {
-          "name": "Google Trends",
-          "type": "url",
-          "url": "https://trends.google.com/trends/"
         }],
         "name": "Search Tools",
         "type": "folder"
@@ -2671,11 +2501,6 @@
           "url": "https://hoaxy.iuni.iu.edu/"
         },
         {
-          "name": "Africa Check",
-          "type": "url",
-          "url": "https://africacheck.org/"
-        },
-        {
           "name": "PolitiFact",
           "type": "url",
           "url": "http://www.politifact.com/"
@@ -2699,21 +2524,6 @@
           "name": "Snopes",
           "type": "url",
           "url": "http://www.snopes.com/"
-        },
-        {
-          "name": "Verification Handbook",
-          "type": "url",
-          "url": "http://verificationhandbook.com/"
-        },
-        {
-          "name": "Verification Junkie",
-          "type": "url",
-          "url": "http://verificationjunkie.com/"
-        },
-        {
-          "name": "MediaBugs",
-          "type": "url",
-          "url": "http://mediabugs.org/"
         }],
         "name": "Fact Checking",
         "type": "folder"
