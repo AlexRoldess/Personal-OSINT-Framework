@@ -2791,11 +2791,6 @@
       {
         "children": [
         {
-          "name": "OnionScan (T)",
-          "type": "url",
-          "url": "https://github.com/s-rah/onionscan"
-        },
-        {
           "name": "TorBot (T)",
           "type": "url",
           "url": "https://github.com/DedSecInside/TorBot"
@@ -2804,16 +2799,6 @@
           "name": "Onioff (T)",
           "type": "url",
           "url": "https://github.com/k4m4/onioff"
-        },
-        {
-          "name": "Hunchly Hidden Services Report",
-          "type": "url",
-          "url": "https://darkweb.hunch.ly/"
-        },
-        {
-          "name": "docker-onion-nmap (T)",
-          "type": "url",
-          "url": "https://github.com/milesrichardson/docker-onion-nmap"
         }],
         "name": "Discovery",
         "type": "folder"
@@ -2856,16 +2841,6 @@
       {
         "children": [
         {
-          "name": "OXT",
-          "type": "url",
-          "url": "https://oxt.me"
-        },
-        {
-          "name": "Blocktrail",
-          "type": "url",
-          "url": "https://www.blocktrail.com/BTC"
-        },
-        {
           "name": "Blockchain.info",
           "type": "url",
           "url": "https://blockchain.info/"
@@ -2874,11 +2849,6 @@
           "name": "Block Explorer",
           "type": "url",
           "url": "https://blockexplorer.com/"
-        },
-        {
-          "name": "Blockr.io",
-          "type": "url",
-          "url": "http://blockr.io/"
         },
         {
           "name": "BitRef",
@@ -2904,11 +2874,6 @@
           "name": "Bitcoin Who's Who",
           "type": "url",
           "url": "http://bitcoinwhoswho.com/"
-        },
-        {
-          "name": "Orbit (T)",
-          "type": "url",
-          "url": "https://github.com/s0md3v/Orbit"
         }],
         "name": "Bitcoin",
         "type": "folder"
@@ -2916,19 +2881,14 @@
       {
         "children": [
         {
-          "name": "Ether.Camp",
+          "name": "Etherscan",
           "type": "url",
-          "url": "https://live.ether.camp/transactions"
+          "url": "https://etherscan.io/"
         },
         {
           "name": "etherchain.org",
           "type": "url",
           "url": "https://etherchain.org/accounts/"
-        },
-        {
-          "name": "Etherscan",
-          "type": "url",
-          "url": "https://etherscan.io/"
         }],
         "name": "Ethereum",
         "type": "folder"
@@ -2944,11 +2904,6 @@
           "name": "Monero Blocks",
           "type": "url",
           "url": "http://moneroblocks.info/"
-        },
-        {
-          "name": "Chain Radar",
-          "type": "url",
-          "url": "https://chainradar.com/xmr/blocks"
         }],
         "name": "Monero",
         "type": "folder"
