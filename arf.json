@@ -2541,24 +2541,9 @@
           "url": "http://boardreader.com/"
         },
         {
-          "name": "Omgili",
-          "type": "url",
-          "url": "http://omgili.com/"
-        },
-        {
-          "name": "Craigslist Forums",
-          "type": "url",
-          "url": "https://forums.craigslist.org/"
-        },
-        {
-          "name": "Delphi Forum Search",
+          "name": "Delphi Forum Search (R)",
           "type": "url",
           "url": "http://www.delphiforums.com/"
-        },
-        {
-          "name": "Google Groups Search",
-          "type": "url",
-          "url": "https://groups.google.com/forum/#!overview"
         }],
         "name": "Forum Search Engines",
         "type": "folder"
@@ -2566,19 +2551,9 @@
       {
         "children": [
         {
-          "name": "Live Journal Seek",
+          "name": "TODO",
           "type": "url",
-          "url": "http://ljseek.com/"
-        },
-        {
-          "name": "Topix",
-          "type": "url",
-          "url": "http://www.topix.com/search/article?q="
-        },
-        {
-          "name": "Blog Search Engine",
-          "type": "url",
-          "url": "http://www.blogsearchengine.org/"
+          "url": "TODO"
         }],
         "name": "Blog Search Engines",
         "type": "folder"
@@ -2586,21 +2561,21 @@
       {
         "children": [
         {
-          "name": "Mibbit",
-          "type": "url",
-          "url": "http://search.mibbit.com/"
-        },
-        {
-          "name": "ircsnapshot (T)",
-          "type": "url",
-          "url": "https://github.com/bwall/ircsnapshot"
-        },
-        {
           "name": "netsplit.de",
           "type": "url",
           "url": "http://irc.netsplit.de/channels/search.php"
         }],
         "name": "IRC Search",
+        "type": "folder"
+      },
+      {
+        "children": [
+        {
+          "name": "Craigslist Forums",
+          "type": "url",
+          "url": "https://forums.craigslist.org/"
+        }],
+        "name": "Forums",
         "type": "folder"
       }],
       "name": "Forums / Blogs / IRC",
