@@ -2934,11 +2934,6 @@
         "url": "http://www.ebay.com/"
       },
       {
-        "name": "OfferUp",
-        "type": "url",
-        "url": "https://offerup.com/"
-      },
-      {
         "name": "Goofbid",
         "type": "url",
         "url": "http://www.goofbid.com/"
@@ -2954,11 +2949,6 @@
         "url": "http://www.searchalljunk.com/"
       },
       {
-        "name": "TotalCraigSearch",
-        "type": "url",
-        "url": "http://www.totalcraigsearch.com/"
-      },
-      {
         "name": "Search Tempest",
         "type": "url",
         "url": "http://www.searchtempest.com/"
@@ -2967,16 +2957,6 @@
         "name": "Oodle",
         "type": "url",
         "url": "http://www.oodle.com/"
-      },
-      {
-        "name": "Claz.org",
-        "type": "url",
-        "url": "http://claz.org/"
-      },
-      {
-        "name": "francais-a-londres.org - French Classifieds",
-        "type": "url",
-        "url": "http://francais-a-londres.org/"
       }],
       "name": "Classifieds",
       "type": "folder"
@@ -2986,6 +2966,11 @@
       {
         "children": [
         {
+          "name": "Paterva / Maltego (T)",
+          "type": "url",
+          "url": "https://www.maltego.com/"
+        },
+        {
           "name": "DataSploit (T)",
           "type": "url",
           "url": "https://github.com/datasploit/datasploit/"
@@ -2993,37 +2978,12 @@
         {
           "name": "SpiderFoot (T)",
           "type": "url",
-          "url": "http://www.spiderfoot.net/"
-        },
-        {
-          "name": "ThreatPipes (T)",
-          "type": "url",
-          "url": "https://www.threatpipes.com"
+          "url": "https://github.com/smicallef/spiderfoot"
         },
         {
           "name": "Omnibus (T)",
           "type": "url",
           "url": "https://github.com/InQuest/omnibus"
-        },
-        {
-          "name": "Photon (T)",
-          "type": "url",
-          "url": "https://github.com/s0md3v/Photon"
-        },
-        {
-          "name": "ReconDog (T)",
-          "type": "url",
-          "url": "https://github.com/s0md3v/ReconDog"
-        },
-        {
-          "name": "IFTTT",
-          "type": "url",
-          "url": "https://ifttt.com/"
-        },
-        {
-          "name": "Stringify",
-          "type": "url",
-          "url": "https://www.stringify.com/"
         },
         {
           "name": "Intrigue.io (T)",
@@ -3036,29 +2996,14 @@
           "url": "https://github.com/i3visio/osrframework"
         },
         {
-          "name": "Inquisitor (T)",
-          "type": "url",
-          "url": "https://github.com/penafieljlm/inquisitor"
-        },
-        {
           "name": "AutoOSINT (T)",
           "type": "url",
           "url": "https://github.com/bharshbarger/AutOSINT"
         },
         {
-          "name": "IntRec-Pack (T)",
-          "type": "url",
-          "url": "https://github.com/NullArray/IntRec-Pack"
-        },
-        {
           "name": "OSINT-SPY (T)",
           "type": "url",
           "url": "https://github.com/SharadKumar97/OSINT-SPY"
-        },
-        {
-          "name": "Microsoft Flow",
-          "type": "url",
-          "url": "https://flow.microsoft.com/en-us/"
         },
         {
           "name": "PhoneInfoga (T)",
@@ -3067,21 +3012,6 @@
         }],
         "name": "OSINT Automation",
         "type": "folder"
-      },
-      {
-        "name": "Paterva / Maltego (T)",
-        "type": "url",
-        "url": "https://www.maltego.com/"
-      },
-      {
-        "name": "Epic Privacy Browser (T)",
-        "type": "url",
-        "url": "https://www.epicbrowser.com/"
-      },
-      {
-        "name": "Overview",
-        "type": "url",
-        "url": "https://www.overviewdocs.com/"
       }],
       "name": "Tools",
       "type": "folder"
