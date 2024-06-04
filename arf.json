@@ -1898,7 +1898,7 @@
         {
           "name": "ZoomInfo.com",
           "type": "url",
-          "url": "http://www.zoominfo.com/company-directory/us"
+          "url": "http://www.zoominfo.com"
         },
         {
           "name": "Kompass International",
@@ -1939,11 +1939,6 @@
           "name": "UK Companies list",
           "type": "url",
           "url": "https://www.companieslist.co.uk/"
-        },
-        {
-          "name": "Orbis Directory",
-          "type": "url",
-          "url": "https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies"
         },
         {
           "name": "RBA - Business Information Resources",
@@ -2239,11 +2234,6 @@
           "name": "Google Advanced Search",
           "type": "url",
           "url": "https://www.google.com/advanced_search"
-        },
-        {
-          "name": "Advangle",
-          "type": "url",
-          "url": "http://advangle.com/"
         },
         {
           "name": "Biznar",
