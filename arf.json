@@ -726,6 +726,11 @@
             "url": "https://pimeyes.com/en"
           },
           {
+            "name": "FaceCheck.id",
+            "type": "url",
+            "url": "https://facecheck.id/es"
+          },
+          {
             "name": "Yandex Images",
             "type": "url",
             "url": "https://www.yandex.com/images/"
