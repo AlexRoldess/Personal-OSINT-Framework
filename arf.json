@@ -294,6 +294,11 @@
           {
             "children": [
             {
+              "name": "Ipinfo.io",
+              "type": "url",
+              "url": "https://ipinfo.io/"
+            },
+            {
               "name": "IP / DNS Leak Detection",
               "type": "url",
               "url": "https://ipleak.net/"
@@ -509,6 +514,11 @@
       {
         "children": [
         {
+          "name": "Sherlock (T)",
+          "type": "url",
+          "url": "https://github.com/sherlock-project/sherlock"
+        },
+        {
           "name": "NameCheckup",
           "type": "url",
           "url": "https://namecheckup.com/"
@@ -569,6 +579,11 @@
       {
         "children": [
         {
+          "name": "Infoga (T)",
+          "type": "url",
+          "url": "https://www.osintux.org/documentacion/infoga"
+        },
+        {
           "name": "Skymem",
           "type": "url",
           "url": "http://www.skymem.info/"
@@ -584,6 +599,11 @@
           "url": "https://github.com/laramies/theHarvester"
         },
         {
+          "name": "Buster (T)",
+          "type": "url",
+          "url": "https://github.com/sham00n/buster"
+        },
+        {
           "name": "GHunt (T)",
           "type": "url",
           "url": "https://github.com/mxrch/GHunt"
@@ -597,6 +617,11 @@
           "name": "Email to Address (R)",
           "type": "url",
           "url": "http://www.melissadata.com/lookups/emails.asp"
+        },
+        {
+          "name": "Recon-ng (T)",
+          "type": "url",
+          "url": "https://github.com/lanmaster53/recon-ng"
         }],
         "name": "Email Search",
         "type": "folder"
@@ -672,6 +697,11 @@
           "name": "DeHashed (R)",
           "type": "url",
           "url": "https://dehashed.com/"
+        },
+        {
+          "name": "h8mail (T)",
+          "type": "url",
+          "url": "https://github.com/khast3x/h8mail"
         }],
         "name": "Breach Data",
         "type": "folder"
@@ -937,6 +967,11 @@
             "url": "http://deturl.com/"
           },
           {
+            "name": "youtube-dl (T)",
+            "type": "url",
+            "url": "https://github.com/ytdl-org/youtube-dl"
+          },
+          {
             "name": "YouTube Metadata",
             "type": "url",
             "url": "http://www.amnestyusa.org/citizenevidence/"
@@ -1000,6 +1035,11 @@
             "name": "WikiLeaks Search",
             "type": "url",
             "url": "https://search.wikileaks.org/advanced"
+          },
+          {
+            "name": "WikiLeaker (T)",
+            "type": "url",
+            "url": "https://github.com/jocephus/WikiLeaker"
           },
           {
             "name": "Leaked Cables",
@@ -1133,6 +1173,11 @@
           "name": "Osintgram (T)",
           "type": "url",
           "url": "https://github.com/Datalux/Osintgram"
+        },
+        {
+          "name": "Instaloader (T)",
+          "type": "url",
+          "url": "https://github.com/instaloader/instaloader"
         }],
         "name": "Instagram",
         "type": "folder"
@@ -1155,6 +1200,11 @@
             "name": "Twitter Date Search (M)",
             "type": "url",
             "url": "https://twitter.com/search?q=<searchTerm>%20since:<YYYY-mm-dd>%20until:<YYYY-mm-dd>"
+          },
+          {
+            "name": "Twint (T)",
+            "type": "url",
+            "url": "https://github.com/twintproject/twint"
           },
           {
             "name": "Moz Profile Search",
@@ -1378,6 +1428,21 @@
           "name": "ThatsThem",
           "type": "url",
           "url": "https://thatsthem.com/name-address-search"
+        },
+        {
+          "name": "Little Brother (T)",
+          "type": "url",
+          "url": "https://github.com/AbirHasan2005/LittleBrother"
+        },
+        {
+          "name": "OSINT-Search (T)",
+          "type": "url",
+          "url": "https://github.com/am0nt31r0/OSINT-Search"
+        },
+        {
+          "name": "Skiptracer (T)",
+          "type": "url",
+          "url": "https://gitlab.com/illwill/skiptracer"
         },
         {
           "name": "Zaba Search",
@@ -2209,6 +2274,11 @@
         "url": "https://support.google.com/websearch/answer/1325808?hl=en&co=GENIE.Platform%3DDesktop"
       },
       {
+        "name": "Shodan",
+        "type": "url",
+        "url": "https://www.shodan.io/"
+      },
+      {
         "name": "Wikimapia",
         "type": "url",
         "url": "http://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
@@ -2799,6 +2869,11 @@
         "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
       },
       {
+        "name": "Exifprobe (T)",
+        "type": "url",
+        "url": "https://www.kali.org/tools/exifprobe/"
+      },
+      {
         "name": "Metagoofil (T)",
         "type": "url",
         "url": "http://www.edge-security.com/metagoofil.php"
@@ -3051,6 +3126,11 @@
       {
         "children": [
         {
+          "name": "Lampyre.io (R)",
+          "type": "url",
+          "url": "https://lampyre.io/"
+        },
+        {
           "name": "Paterva / Maltego (T)",
           "type": "url",
           "url": "https://www.maltego.com/"
@@ -3094,6 +3174,11 @@
           "name": "PhoneInfoga (T)",
           "type": "url",
           "url": "https://github.com/sundowndev/PhoneInfoga"
+        },
+        {
+          "name": "sn0int (T)",
+          "type": "url",
+          "url": "https://github.com/kpcyrd/sn0int"
         }],
         "name": "OSINT Automation",
         "type": "folder"
