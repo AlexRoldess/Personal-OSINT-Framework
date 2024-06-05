@@ -1485,6 +1485,11 @@
           "url": "https://cubib.com/"
         },
         {
+          "name": "PeopleFinders",
+          "type": "url",
+          "url": "https://www.peoplefinders.com/"
+        },
+        {
           "name": "Fast People Search",
           "type": "url",
           "url": "https://www.fastpeoplesearch.com/"
