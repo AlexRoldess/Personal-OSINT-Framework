@@ -175,6 +175,11 @@
         pipx install ghunt
     }
 
+    xeuledoc() {
+        cd
+        pip3 install xeuledoc
+    }
+
 ### 13. SCRIPT COMPLETION
 
     # Invalidate the sudo timestamp before exiting
@@ -195,5 +200,6 @@ genymotion
 infoga
 anonymouth
 ghunt
+xeuledoc
 
 display_log_contents
