@@ -542,11 +542,6 @@
           "name": "NameCheckr",
           "type": "url",
           "url": "https://www.namecheckr.com/"
-        },
-        {
-          "name": "WhatsMyName (T)",
-          "type": "url",
-          "url": "https://github.com/WebBreacher/WhatsMyName"
         }],
         "name": "Username Search Engines",
         "type": "folder"
@@ -581,7 +576,7 @@
         {
           "name": "Infoga (T)",
           "type": "url",
-          "url": "https://www.osintux.org/documentacion/infoga"
+          "url": "https://github.com/GiJ03/Infoga"
         },
         {
           "name": "Skymem",

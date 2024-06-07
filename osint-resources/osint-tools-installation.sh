@@ -65,7 +65,7 @@
 ### 6. INSTALLING OSINT TOOLS
 
     install_tools() {
-        local tools=(spiderfoot sherlock maltego python3-shodan theharvester webhttrack outguess stegosuite wireshark metagoofil eyewitness exifprobe ruby-bundler recon-ng cherrytree instaloader photon sublist3r osrframework joplin drawing finalrecon cargo pkg-config curl python3-pip pipx python3-exifread python3-fake-useragent yt-dlp keepassxc)
+        local tools=(spiderfoot sherlock maltego python3-shodan theharvester webhttrack outguess stegosuite wireshark metagoofil eyewitness exifprobe ruby-bundler recon-ng cherrytree instaloader photon sublist3r osrframework joplin drawing finalrecon cargo pkg-config curl python3-pip pipx python3-exifread python3-fake-useragent yt-dlp keepassxc exiftool)
         for tool in "${tools[@]}"; do
             if ! dpkg -l | grep -qw $tool; then
                 sudo apt install $tool -y 2>>"$LOG_FILE" || {
@@ -81,46 +81,10 @@
 ### 7. TOR BROWSER INSTALLATION
 
     install_tor_browser() {
-        # Define download directory
-        local download_dir="$HOME/Downloads"
-        mkdir -p "$download_dir"
-
-        # Import the Tor Browser Developers signing key
-        gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org || { echo "Failed to import Tor Browser Developers signing key"; add_to_error_log "Failed to import Tor Browser Developers signing key"; return 1; }
-
-        # Export the key to a file
-        local keyring_path="$download_dir/tor.keyring"
-        gpg --output "$keyring_path" --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290 || { echo "Failed to export Tor Browser Developers signing key"; add_to_error_log "Failed to export Tor Browser Developers signing key"; return 1; }
-
-        # Fetch the latest Tor Browser download link (assuming the link is on the download page)
-        local tor_browser_link="https://www.torproject.org/dist/torbrowser/13.0.14/tor-browser-linux-x86_64-13.0.14.tar.xz"
-        local tor_browser_dir="$download_dir/tor-browser"
-
-        if [ -z "$tor_browser_link" ]; then
-            echo "Failed to find Tor Browser download link"
-            add_to_error_log "Failed to find Tor Browser download link"
-            return 1
-        fi
-
-        # Download the latest Tor Browser tarball and its signature file
-        local tor_browser_tarball="$download_dir/$(basename "$tor_browser_link")"
-        curl -L "$tor_browser_link" -o "$tor_browser_tarball" || { echo "Failed to download Tor Browser"; add_to_error_log "Failed to download Tor Browser"; return 1; }
-        curl -L "${tor_browser_link}.asc" -o "${tor_browser_tarball}.asc" || { echo "Failed to download Tor Browser signature"; add_to_error_log "Failed to download Tor Browser signature"; return 1; }
-
-        # Verify the signature with gpgv
-        gpgv --keyring "$keyring_path" "${tor_browser_tarball}.asc" "$tor_browser_tarball" || { echo "Failed to verify Tor Browser signature"; add_to_error_log "Failed to verify Tor Browser signature"; return 1; }
-
-        # Extract the Tor Browser
-        tar -xf "$tor_browser_tarball" -C "$download_dir" || { echo "Failed to extract Tor Browser"; add_to_error_log "Failed to extract Tor Browser"; return 1; }
-
-    if [ -f "$tor_browser_dir/start-tor-browser.desktop" ]; then
-            cd "$tor_browser_dir" || { echo "Failed to navigate to Tor Browser directory"; add_to_error_log "Failed to navigate to Tor Browser directory"; return 1; }
-            ./start-tor-browser.desktop --register-app || { echo "Failed to register Tor Browser as a desktop application"; add_to_error_log "Failed to register Tor Browser as a desktop application"; return 1; }
-        else
-            echo "start-tor-browser.desktop not found in $tor_browser_dir"
-            add_to_error_log "start-tor-browser.desktop not found in $tor_browser_dir"
-            return 1
-        fi
+        echo "deb [arch=amd64] https://deb.torproject.org/torproject.org bullseye main" | sudo tee /etc/apt/sources.list.d/tor.list
+        sudo apt install apt-transport-https
+        sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+        sudo apt install --fix-missing torbrowser-launcher
     }
 
 ### 8. PHONEINFOGA INSTALLATION
@@ -154,12 +118,12 @@
 ### 10. SN0INT INSTALLATION
 
     install_sn0int() {
-        mkdir -p ~/github-tools || { echo "Failed to create github-tools directory"; add_to_error_log "Failed to create github-tools directory"; }
-        cd ~/github-tools || { echo "Failed to navigate to github-tools directory"; add_to_error_log "Failed to navigate to github-tools directory"; }
-        curl -s https://apt.vulns.sexy/kpcyrd.pgp | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/apt-vulns-sexy.gpg || { echo "Failed to add sn0int gpg key"; add_to_error_log "Failed to add sn0int gpg key"; }
-        echo "deb http://apt.vulns.sexy stable main" | sudo tee /etc/apt/sources.list.d/apt-vulns-sexy.list || { echo "Failed to add sn0int to sources list"; add_to_error_log "Failed to add sn0int to sources list"; }
-        sudo apt update || { echo "Failed to update package lists for sn0int"; add_to_error_log "Failed to update package lists for sn0int"; }
-        sudo apt install sn0int -y || { echo "Failed to install sn0int"; add_to_error_log "Failed to install sn0int"; }
+        git clone https://github.com/kpcyrd/sn0int.git
+        cd sn0int
+        source $HOME/.cargo/env
+        sudo apt install libsodium-dev pkg-config libseccomp-dev libsqlite3-dev
+        cargo build --release
+        cd ..
     }
 
 ### 11. TJ NULL JOPLIN NOTEBOOK UPDATE
@@ -173,7 +137,45 @@
         fi
     }
 
-### 12. SCRIPT COMPLETION
+### 12. OTHER TOOLS
+
+    genymotion() {
+        cd
+        wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin
+        chmod +x genymotion-3.3.1-linux_x64.bin
+        ./genymotion-3.3.1-linux_x64.bin
+        sudo apt install virtualbox
+    }
+
+    infoga() {
+        cd
+        git clone https://github.com/GiJ03/Infoga.git
+        cd Infoga
+        pip3 install colorama requests urllib3
+    }
+
+    anonymouth() {
+        cd
+        git clone https://github.com/psal/anonymouth.git
+        cd anonymouth
+        sudo apt install openjdk-11-jdk
+        cd ..
+        wget -O eclipse-installer.tar.gz "https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2023-03/R/eclipse-inst-jre-linux64.tar.gz"
+        tar -xvzf eclipse-installer.tar.gz
+        cd eclipse-installer
+        #./eclipse-inst
+    }
+
+    ghunt() {
+        cd
+        git clone https://github.com/mxrch/GHunt.git
+        cd GHunt
+        pip3 install pipx
+        pipx ensurepath
+        pipx install ghunt
+    }
+
+### 13. SCRIPT COMPLETION
 
     # Invalidate the sudo timestamp before exiting
     sudo -k
@@ -184,10 +186,14 @@ init_error_log
 update_system
 setup_path
 install_tools
-install_tor_browser
 install_phoneinfoga
 install_python_packages
-install_sn0int
 update_tj_null_joplin_notebook
+install_tor_browser
+install_sn0int
+genymotion
+infoga
+anonymouth
+ghunt
 
 display_log_contents
