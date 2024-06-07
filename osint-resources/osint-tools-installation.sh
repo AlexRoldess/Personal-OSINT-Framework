@@ -180,6 +180,53 @@
         pip3 install xeuledoc
     }
 
+    instaloader() {
+        cd
+        pip3 install instaloader
+    }
+
+    littlebrother() {
+        cd
+        git clone https://github.com/AbirHasan2005/LittleBrother
+        cd LittleBrother
+        python3 -m pip install -r requirements.txt
+    }
+
+    OSINTsearch() {
+        cd
+        git clone https://github.com/am0nt31r0/OSINT-Search.git
+        cd OSINT-Search
+        pip3 install -r requirements.txt
+        pip3 install git+https://github.com/abenassi/Google-Search-API --upgrade
+        pip3 install https://github.com/PaulSec/API-dnsdumpster.com/archive/master.zip --user
+    }
+
+    numspy() {
+        cd
+        pip3 install numpsy 
+    }
+
+    waybackpack() {
+        cd
+        pip install wayback
+    }
+
+    onioff() {
+        cd
+        git clone https://github.com/k4m4/onioff.git
+        cd onioff
+        pip3 install -r requirements.txt
+    }
+
+    autosint() {
+        git clone https://github.com/bharshbarger/AutOSINT.git
+        cd AutOSINT
+        python3 -m venv autosint_env
+        source autosint_env/bin/activate
+        pip install -U -r requirements.txt 
+        deactivate
+    }
+
 ### 13. SCRIPT COMPLETION
 
     # Invalidate the sudo timestamp before exiting
@@ -201,5 +248,11 @@ infoga
 anonymouth
 ghunt
 xeuledoc
+instaloader
+littlebrother
+OSINTsearch
+numspy
+onioff
+autosint
 
 display_log_contents
