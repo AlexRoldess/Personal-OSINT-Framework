@@ -118,12 +118,14 @@
 ### 10. SN0INT INSTALLATION
 
     install_sn0int() {
+    	cd
+    	mkdir tools
+    	cd tools
         git clone https://github.com/kpcyrd/sn0int.git
         cd sn0int
-        source $HOME/.cargo/env
+        #source $HOME/.cargo/env
         sudo apt install libsodium-dev pkg-config libseccomp-dev libsqlite3-dev
         cargo build --release
-        cd ..
     }
 
 ### 11. TJ NULL JOPLIN NOTEBOOK UPDATE
@@ -140,60 +142,56 @@
 ### 12. OTHER TOOLS
 
     genymotion() {
-        cd
+        cd ..
         wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin
         chmod +x genymotion-3.3.1-linux_x64.bin
         ./genymotion-3.3.1-linux_x64.bin
+        rm genymotion-3.3.1-linux_x64.bin
         sudo apt install virtualbox
     }
 
     infoga() {
-        cd
         git clone https://github.com/GiJ03/Infoga.git
         cd Infoga
         pip3 install colorama requests urllib3
     }
 
     anonymouth() {
-        cd
+        cd ..
         git clone https://github.com/psal/anonymouth.git
         cd anonymouth
         sudo apt install openjdk-11-jdk
         cd ..
         wget -O eclipse-installer.tar.gz "https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2023-03/R/eclipse-inst-jre-linux64.tar.gz"
         tar -xvzf eclipse-installer.tar.gz
+        rm eclipse-installer.tar.gz
         cd eclipse-installer
-        #./eclipse-inst
+        #./eclipse-inst -> Este comando inicializa el instalador
+        cd ..
     }
 
     ghunt() {
-        cd
         git clone https://github.com/mxrch/GHunt.git
         cd GHunt
         pip3 install pipx
         pipx ensurepath
         pipx install ghunt
+        cd ..
     }
 
     xeuledoc() {
-        cd
         pip3 install xeuledoc
-    }
-
-    instaloader() {
-        cd
-        pip3 install instaloader
+        export PATH=$PATH:/home/osint/.local/bin
     }
 
     littlebrother() {
-        cd
         git clone https://github.com/AbirHasan2005/LittleBrother
         cd LittleBrother
         python3 -m pip install -r requirements.txt
     }
 
     OSINTsearch() {
-        cd
+        cd ..
         git clone https://github.com/am0nt31r0/OSINT-Search.git
         cd OSINT-Search
         pip3 install -r requirements.txt
@@ -202,23 +200,22 @@
     }
 
     numspy() {
-        cd
-        pip3 install numpsy 
+        cd ..
+        pip3 install numspy¡
     }
 
     waybackpack() {
-        cd
-        pip install wayback
+        pip install waybackpack
     }
 
     onioff() {
-        cd
         git clone https://github.com/k4m4/onioff.git
         cd onioff
         pip3 install -r requirements.txt
     }
 
     autosint() {
+        cd ..
         git clone https://github.com/bharshbarger/AutOSINT.git
         cd AutOSINT
         python3 -m venv autosint_env
@@ -229,8 +226,15 @@
 
 ### 13. SCRIPT COMPLETION
 
-    # Invalidate the sudo timestamp before exiting
-    sudo -k
+    final_scripts_and_adjustments() {
+        cd
+
+        sudo chmod +x /usr/share/metagoofil/metagoofil.py
+        sudo apt-get install drawing
+
+        # Invalidate the sudo timestamp before exiting
+        sudo -k
+    }
 
 # Main script execution
 init_error_log
@@ -248,10 +252,10 @@ infoga
 anonymouth
 ghunt
 xeuledoc
-instaloader
 littlebrother
 OSINTsearch
 numspy
+waybackpack
 onioff
 autosint
 
