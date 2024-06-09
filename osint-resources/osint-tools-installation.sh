@@ -35,6 +35,7 @@
         echo "$1" >> "$LOG_FILE"
     }
 
+    # Function to display the contents of the installation log
     display_log_contents() {
         if [ -s "$LOG_FILE" ]; then
             echo "Installation completed with errors. Review the log below:"
@@ -62,7 +63,7 @@
         . ~/.zshrc || { echo "Failed to source .zshrc"; add_to_error_log "Failed to source .zshrc"; }
     }
 
-### 6. INSTALLING OSINT TOOLS
+### 6. INSTALLING TOOLS
 
     install_tools() {
         local tools=(spiderfoot sherlock maltego python3-shodan theharvester webhttrack outguess stegosuite wireshark metagoofil eyewitness exifprobe ruby-bundler recon-ng cherrytree instaloader photon sublist3r osrframework joplin drawing finalrecon cargo pkg-config curl python3-pip pipx python3-exifread python3-fake-useragent yt-dlp keepassxc exiftool)
@@ -78,16 +79,7 @@
         done
     }
 
-### 7. TOR BROWSER INSTALLATION
-
-    install_tor_browser() {
-        echo "deb [arch=amd64] https://deb.torproject.org/torproject.org bullseye main" | sudo tee /etc/apt/sources.list.d/tor.list
-        sudo apt install apt-transport-https
-        sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
-        sudo apt install --fix-missing torbrowser-launcher
-    }
-
-### 8. PHONEINFOGA INSTALLATION
+### 7. PHONEINFOGA INSTALLATION
 
     install_phoneinfoga() {
         # Download and execute the PhoneInfoga installation script
@@ -104,7 +96,7 @@
         sudo install ./phoneinfoga /usr/local/bin/phoneinfoga || { echo "Failed to install PhoneInfoga globally"; add_to_error_log "Failed to install PhoneInfoga globally"; return 1; }
     }
 
-### 9. INSTALLING PYTHON PACKAGES
+### 8. INSTALLING PYTHON PACKAGES
 
     install_python_packages() {
         pipx install youtube-dl || { echo "Failed to install youtube-dl"; add_to_error_log "Failed to install youtube-dl"; }
@@ -115,20 +107,7 @@
         pip3 install onionsearch || { echo "Failed to install onionsearch"; add_to_error_log "Failed to install onionsearch"; }
     }
 
-### 10. SN0INT INSTALLATION
-
-    install_sn0int() {
-    	cd
-    	mkdir tools
-    	cd tools
-        git clone https://github.com/kpcyrd/sn0int.git
-        cd sn0int
-        #source $HOME/.cargo/env
-        sudo apt install libsodium-dev pkg-config libseccomp-dev libsqlite3-dev
-        cargo build --release
-    }
-
-### 11. TJ NULL JOPLIN NOTEBOOK UPDATE
+### 9. TJ NULL JOPLIN NOTEBOOK UPDATE
 
     # Function to update TJ Null Joplin Notebook
     update_tj_null_joplin_notebook() {
@@ -139,98 +118,116 @@
         fi
     }
 
-### 12. OTHER TOOLS
+### 10. INSTALLATION OF OTHER TOOLS
 
-    genymotion() {
+    install_tor_browser() {
+        echo "deb [arch=amd64] https://deb.torproject.org/torproject.org bullseye main" | sudo tee /etc/apt/sources.list.d/tor.list || { echo "Failed to add Tor repository"; add_to_error_log "Failed to add Tor repository"; return 1; }
+        sudo apt install apt-transport-https || { echo "Failed to install apt-transport-https"; add_to_error_log "Failed to install apt-transport-https"; return 1; }
+        sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 || { echo "Failed to add Tor GPG key"; add_to_error_log "Failed to add Tor GPG key"; return 1; }
+        sudo apt install --fix-missing torbrowser-launcher || { echo "Failed to install Tor Browser"; add_to_error_log "Failed to install Tor Browser"; return 1; }
+    }
+
+    install_sn0int() {
+    	cd
+    	mkdir tools
+    	cd tools
+        git clone https://github.com/kpcyrd/sn0int.git || { echo "Failed to clone sn0int repository"; add_to_error_log "Failed to clone sn0int repository"; return 1; }
+        cd sn0int
+        sudo apt install libsodium-dev pkg-config libseccomp-dev libsqlite3-dev || { echo "Failed to install sn0int dependencies"; add_to_error_log "Failed to install sn0int dependencies"; return 1; }
+        cargo build --release || { echo "Failed to build sn0int"; add_to_error_log "Failed to build sn0int"; return 1; }
+    }
+
+    install_genymotion() {
         cd ..
-        wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin
-        chmod +x genymotion-3.3.1-linux_x64.bin
-        ./genymotion-3.3.1-linux_x64.bin
+        wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin || { echo "Failed to download Genymotion"; add_to_error_log "Failed to download Genymotion"; return 1; }
+        chmod +x genymotion-3.3.1-linux_x64.bin || { echo "Failed to make Genymotion executable"; add_to_error_log "Failed to make Genymotion executable"; return 1; }
+        ./genymotion-3.3.1-linux_x64.bin || { echo "Failed to install Genymotion"; add_to_error_log "Failed to install Genymotion"; return 1; }
         rm genymotion-3.3.1-linux_x64.bin
-        sudo apt install virtualbox
+        sudo apt install virtualbox || { echo "Failed to install VirtualBox"; add_to_error_log "Failed to install VirtualBox"; return 1; }
     }
 
-    infoga() {
-        git clone https://github.com/GiJ03/Infoga.git
+    install_infoga() {
+        git clone https://github.com/GiJ03/Infoga.git || { echo "Failed to clone Infoga repository"; add_to_error_log "Failed to clone Infoga repository"; return 1; }
         cd Infoga
-        pip3 install colorama requests urllib3
+        pip3 install colorama requests urllib3 || { echo "Failed to install Infoga dependencies"; add_to_error_log "Failed to install Infoga dependencies"; return 1; }
     }
 
-    anonymouth() {
+    install_anonymouth() {
         cd ..
-        git clone https://github.com/psal/anonymouth.git
+        git clone https://github.com/psal/anonymouth.git || { echo "Failed to clone Anonymouth repository"; add_to_error_log "Failed to clone Anonymouth repository"; return 1; }
         cd anonymouth
-        sudo apt install openjdk-11-jdk
+        sudo apt install openjdk-11-jdk || { echo "Failed to install OpenJDK"; add_to_error_log "Failed to install OpenJDK"; return 1; }
         cd ..
-        wget -O eclipse-installer.tar.gz "https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2023-03/R/eclipse-inst-jre-linux64.tar.gz"
-        tar -xvzf eclipse-installer.tar.gz
+        wget -O eclipse-installer.tar.gz "https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2023-03/R/eclipse-inst-jre-linux64.tar.gz" || { echo "Failed to download Eclipse installer"; add_to_error_log "Failed to download Eclipse installer"; return 1; }
+        tar -xvzf eclipse-installer.tar.gz || { echo "Failed to extract Eclipse installer"; add_to_error_log "Failed to extract Eclipse installer"; return 1; }
         rm eclipse-installer.tar.gz
         cd eclipse-installer
-        #./eclipse-inst -> Este comando inicializa el instalador
+        #./eclipse-inst -> This command runs the installer
         cd ..
     }
 
-    ghunt() {
-        git clone https://github.com/mxrch/GHunt.git
+    install_ghunt() {
+        git clone https://github.com/mxrch/GHunt.git || { echo "Failed to clone GHunt repository"; add_to_error_log "Failed to clone GHunt repository"; return 1; }
         cd GHunt
-        pip3 install pipx
-        pipx ensurepath
-        pipx install ghunt
+        pip3 install pipx || { echo "Failed to install pipx"; add_to_error_log "Failed to install pipx"; return 1; }
+        pipx ensurepath || { echo "Failed to ensure pipx path"; add_to_error_log "Failed to ensure pipx path"; return 1; }
+        pipx install ghunt || { echo "Failed to install GHunt"; add_to_error_log "Failed to install GHunt"; return 1; }
         cd ..
     }
 
-    xeuledoc() {
-        pip3 install xeuledoc
-        export PATH=$PATH:/home/osint/.local/bin
+    install_xeuledoc() {
+        pip3 install xeuledoc || { echo "Failed to install xeuledoc"; add_to_error_log "Failed to install xeuledoc"; return 1; }
+        export PATH=$PATH:/home/osint/.local/bin || { echo "Failed to export xeuledoc path"; add_to_error_log "Failed to export xeuledoc path"; return 1; }
     }
 
-    littlebrother() {
-        git clone https://github.com/AbirHasan2005/LittleBrother
+    install_littlebrother() {
+        git clone https://github.com/AbirHasan2005/LittleBrother || { echo "Failed to clone LittleBrother repository"; add_to_error_log "Failed to clone LittleBrother repository"; return 1; }
         cd LittleBrother
-        python3 -m pip install -r requirements.txt
+        python3 -m pip install -r requirements.txt || { echo "Failed to install LittleBrother dependencies"; add_to_error_log "Failed to install LittleBrother dependencies"; return 1; }
     }
 
-    OSINTsearch() {
+    install_OSINTsearch() {
         cd ..
-        git clone https://github.com/am0nt31r0/OSINT-Search.git
+        git clone https://github.com/am0nt31r0/OSINT-Search.git || { echo "Failed to clone OSINT-Search repository"; add_to_error_log "Failed to clone OSINT-Search repository"; return 1; }
         cd OSINT-Search
-        pip3 install -r requirements.txt
-        pip3 install git+https://github.com/abenassi/Google-Search-API --upgrade
-        pip3 install https://github.com/PaulSec/API-dnsdumpster.com/archive/master.zip --user
+        pip3 install -r requirements.txt || { echo "Failed to install OSINT-Search dependencies"; add_to_error_log "Failed to install OSINT-Search dependencies"; return 1; }
+        pip3 install git+https://github.com/abenassi/Google-Search-API --upgrade || { echo "Failed to install Google-Search-API"; add_to_error_log "Failed to install Google-Search-API"; return 1; }
+        pip3 install https://github.com/PaulSec/API-dnsdumpster.com/archive/master.zip --user || { echo "Failed to install API-dnsdumpster"; add_to_error_log "Failed to install API-dnsdumpster"; return 1; }
     }
 
-    numspy() {
+    install_numspy() {
         cd ..
-        pip3 install numspy¡
+        pip3 install numspy || { echo "Failed to install numspy"; add_to_error_log "Failed to install numspy"; return 1; }
     }
 
-    waybackpack() {
-        pip install waybackpack
+    install_waybackpack() {
+        pip install waybackpack || { echo "Failed to install waybackpack"; add_to_error_log "Failed to install waybackpack"; return 1; }
     }
 
-    onioff() {
-        git clone https://github.com/k4m4/onioff.git
+    install_onioff() {
+        git clone https://github.com/k4m4/onioff.git || { echo "Failed to clone onioff repository"; add_to_error_log "Failed to clone onioff repository"; return 1; }
         cd onioff
-        pip3 install -r requirements.txt
+        pip3 install -r requirements.txt || { echo "Failed to install onioff dependencies"; add_to_error_log "Failed to install onioff dependencies"; return 1; }
     }
 
-    autosint() {
+    install_autosint() {
         cd ..
-        git clone https://github.com/bharshbarger/AutOSINT.git
+        git clone https://github.com/bharshbarger/AutOSINT.git || { echo "Failed to clone AutOSINT repository"; add_to_error_log "Failed to clone AutOSINT repository"; return 1; }
         cd AutOSINT
-        python3 -m venv autosint_env
-        source autosint_env/bin/activate
-        pip install -U -r requirements.txt 
+        python3 -m venv autosint_env || { echo "Failed to create virtual environment for AutOSINT"; add_to_error_log "Failed to create virtual environment for AutOSINT"; return 1; }
+        source autosint_env/bin/activate || { echo "Failed to activate virtual environment for AutOSINT"; add_to_error_log "Failed to activate virtual environment for AutOSINT"; return 1; }
+        pip install -U -r requirements.txt || { echo "Failed to install AutOSINT dependencies"; add_to_error_log "Failed to install AutOSINT dependencies"; return 1; }
         deactivate
     }
 
-### 13. SCRIPT COMPLETION
+### 11. SCRIPT COMPLETION
 
     final_scripts_and_adjustments() {
         cd
 
-        sudo chmod +x /usr/share/metagoofil/metagoofil.py
-        sudo apt-get install drawing
+        # Permissions settings and additional tools
+        sudo chmod +x /usr/share/metagoofil/metagoofil.py || { echo "Failed to set executable permissions for metagoofil.py"; add_to_error_log "Failed to set executable permissions for metagoofil.py"; return 1; }
+        sudo apt-get install drawing || { echo "Failed to install drawing"; add_to_error_log "Failed to install drawing"; return 1; }
 
         # Invalidate the sudo timestamp before exiting
         sudo -k
@@ -247,16 +244,18 @@ install_python_packages
 update_tj_null_joplin_notebook
 install_tor_browser
 install_sn0int
-genymotion
-infoga
-anonymouth
-ghunt
-xeuledoc
-littlebrother
-OSINTsearch
-numspy
-waybackpack
-onioff
-autosint
+install_genymotion
+install_infoga
+install_anonymouth
+install_ghunt
+install_xeuledoc
+install_littlebrother
+install_OSINTsearch
+install_numspy
+install_waybackpack
+install_onioff
+install_autosint
+
+final_scripts_and_adjustments
 
 display_log_contents
