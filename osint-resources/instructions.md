@@ -55,21 +55,28 @@ _tool name_ -> Instructions on execution
 37. h8mail -> Run: "h8mail \[PARAMETERS]"
 38. tweepy -> It's a library to use in Python
 39. onionsearch -> Run: "onionsearch \[PARAMETERS]"
-40. sn0int -> Run in ~/tools/sn0int: "./target/release/sn0int"
+40. sn0int -> Run in $HOME/tools/sn0int: "./target/release/sn0int"
 41. genymotion -> Run via GUI
-42. infoga -> Run in ~/tools/Infoga: "python3 infoga.py \[PARAMETERS]"
+42. infoga -> Run in $HOME/tools/Infoga: "python3 infoga.py \[PARAMETERS]"
 43. anonymouth -> You need to install eclipse (we've downloaded the installer), import the anonymouth project and run it from there (edu.drexel.psal.anonymouth.gooie.ThePresident.java)
 44. ghunt -> Run: "ghunt login". Choose an authentication method ([See documentation](https://github.com/mxrch/GHunt))
 45. xeuledoc -> Run: "xeuledoc \[PARAMETERS]"
-46. littlebrother -> Run in ~/tools/LittleBrother: "python3 littlebrother.py"
+46. littlebrother -> Run in $HOME/tools/LittleBrother: "python3 littlebrother.py"
 47. OSINT-search -> You need to submit your API fields ([See documentation](https://github.com/am0nt31r0/OSINT-Search))
 48. numspy -> You need to create an account on way2sms ([See documentation](https://bhattsameer.github.io/numspy/))
 49. waybackpack -> Run: "waybackpack \[PARAMETERS]"
-50. onioff -> Run in ~/tools/onioff: "python3 onioff.py \[PARAMETERS]"
-51. autOSINT -> Run in ~/tools/AutOSINT: "source autosint_env/bin/activate"; "./AutOSINT.py \[PARAMETERS]"; "deactivate"
+50. onioff -> Run in $HOME/tools/onioff: "python3 onioff.py \[PARAMETERS]"
+51. autOSINT -> Run in $HOME/tools/AutOSINT: "source autosint_env/bin/activate"; "./AutOSINT.py \[PARAMETERS]"; "deactivate"
 
 ---
 
 The tools installed in this script come from Kali Linux repositories, Github repositories, Python packages or specific installations.
 
 It's recommended to run the script from the "Desktop" directory.
+
+---
+
+If instead of running the script, you prefer to get virtual machines with the script already run and with the tools already installed, you can download the following .ova. These are virtualized services exported after running the osint-tools-installation.sh script.
+
+- [Kali Linux OSINT - Debian (64-bit)](https://mega.nz/file/oVBSlDiY#52SABm-rQIWCfqslQQ-PdZagFjmHlobwWqNVe_u0_ro)
+- [TraceLabs Kali Linux OSINT - Debian (64-bit)](https://mega.nz/file/9d4CAZhJ#Sfpha4HlcSSGtU1KV-UjUKiVUts1-4MuMoNpZ_LdoFc)
