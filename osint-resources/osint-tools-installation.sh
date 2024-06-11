@@ -111,10 +111,10 @@
 
     # Function to update TJ Null Joplin Notebook
     update_tj_null_joplin_notebook() {
-        if [ -d "~/Desktop/TJ-OSINT-Notebook" ]; then
-            cd ~/Desktop/TJ-OSINT-Notebook && git pull || { echo "Failed to update TJ-OSINT-Notebook"; add_to_error_log "Failed to update TJ-OSINT-Notebook"; return 1; }
+        if [ -d "$HOME/Desktop/TJ-OSINT-Notebook" ]; then
+            cd "$HOME/Desktop/TJ-OSINT-Notebook" && git pull || { echo "Failed to update TJ-OSINT-Notebook"; add_to_error_log "Failed to update TJ-OSINT-Notebook"; return 1; }
         else
-            cd ~/Desktop && git clone https://github.com/tjnull/TJ-OSINT-Notebook.git || { echo "Failed to clone TJ-OSINT-Notebook"; add_to_error_log "Failed to clone TJ-OSINT-Notebook"; return 1; }
+            cd "$HOME/Desktop" && git clone https://github.com/tjnull/TJ-OSINT-Notebook.git || { echo "Failed to clone TJ-OSINT-Notebook"; add_to_error_log "Failed to clone TJ-OSINT-Notebook"; return 1; }
         fi
     }
 
@@ -128,9 +128,8 @@
     }
 
     install_sn0int() {
-    	cd
-    	mkdir tools
-    	cd tools
+    	mkdir -p "$HOME/tools" || { echo "Failed to create tools directory"; add_to_error_log "Failed to create tools directory"; return 1; }
+    	cd "$HOME/tools" || { echo "Failed to change directory to tools (sn0int)"; add_to_error_log "Failed to change directory to tools (sn0int)"; return 1; }
         git clone https://github.com/kpcyrd/sn0int.git || { echo "Failed to clone sn0int repository"; add_to_error_log "Failed to clone sn0int repository"; return 1; }
         cd sn0int
         sudo apt install libsodium-dev pkg-config libseccomp-dev libsqlite3-dev || { echo "Failed to install sn0int dependencies"; add_to_error_log "Failed to install sn0int dependencies"; return 1; }
@@ -138,7 +137,7 @@
     }
 
     install_genymotion() {
-        cd ..
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (genymotion)"; add_to_error_log "Failed to change directory to tools (genymotion)"; return 1; }
         wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin || { echo "Failed to download Genymotion"; add_to_error_log "Failed to download Genymotion"; return 1; }
         chmod +x genymotion-3.3.1-linux_x64.bin || { echo "Failed to make Genymotion executable"; add_to_error_log "Failed to make Genymotion executable"; return 1; }
         ./genymotion-3.3.1-linux_x64.bin || { echo "Failed to install Genymotion"; add_to_error_log "Failed to install Genymotion"; return 1; }
@@ -147,47 +146,48 @@
     }
 
     install_infoga() {
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (infoga)"; add_to_error_log "Failed to change directory to tools (infoga)"; return 1; }
         git clone https://github.com/GiJ03/Infoga.git || { echo "Failed to clone Infoga repository"; add_to_error_log "Failed to clone Infoga repository"; return 1; }
         cd Infoga
         pip3 install colorama requests urllib3 || { echo "Failed to install Infoga dependencies"; add_to_error_log "Failed to install Infoga dependencies"; return 1; }
     }
 
     install_anonymouth() {
-        cd ..
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (anonymouth)"; add_to_error_log "Failed to change directory to tools (anonymouth)"; return 1; }
         git clone https://github.com/psal/anonymouth.git || { echo "Failed to clone Anonymouth repository"; add_to_error_log "Failed to clone Anonymouth repository"; return 1; }
         cd anonymouth
         sudo apt install openjdk-11-jdk || { echo "Failed to install OpenJDK"; add_to_error_log "Failed to install OpenJDK"; return 1; }
-        cd ..
+        cd "$HOME/tools"
         wget -O eclipse-installer.tar.gz "https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2023-03/R/eclipse-inst-jre-linux64.tar.gz" || { echo "Failed to download Eclipse installer"; add_to_error_log "Failed to download Eclipse installer"; return 1; }
         tar -xvzf eclipse-installer.tar.gz || { echo "Failed to extract Eclipse installer"; add_to_error_log "Failed to extract Eclipse installer"; return 1; }
         rm eclipse-installer.tar.gz
         cd eclipse-installer
         #./eclipse-inst -> This command runs the installer
-        cd ..
     }
 
     install_ghunt() {
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (ghunt)"; add_to_error_log "Failed to change directory to tools (ghunt)"; return 1; }
         git clone https://github.com/mxrch/GHunt.git || { echo "Failed to clone GHunt repository"; add_to_error_log "Failed to clone GHunt repository"; return 1; }
         cd GHunt
         pip3 install pipx || { echo "Failed to install pipx"; add_to_error_log "Failed to install pipx"; return 1; }
         pipx ensurepath || { echo "Failed to ensure pipx path"; add_to_error_log "Failed to ensure pipx path"; return 1; }
         pipx install ghunt || { echo "Failed to install GHunt"; add_to_error_log "Failed to install GHunt"; return 1; }
-        cd ..
     }
 
     install_xeuledoc() {
         pip3 install xeuledoc || { echo "Failed to install xeuledoc"; add_to_error_log "Failed to install xeuledoc"; return 1; }
-        export PATH=$PATH:/home/osint/.local/bin || { echo "Failed to export xeuledoc path"; add_to_error_log "Failed to export xeuledoc path"; return 1; }
+        export PATH=$PATH:$HOME/.local/bin || { echo "Failed to export xeuledoc path"; add_to_error_log "Failed to export xeuledoc path"; return 1; }
     }
 
     install_littlebrother() {
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (littlebrother)"; add_to_error_log "Failed to change directory to tools (littlebrother)"; return 1; }
         git clone https://github.com/AbirHasan2005/LittleBrother || { echo "Failed to clone LittleBrother repository"; add_to_error_log "Failed to clone LittleBrother repository"; return 1; }
         cd LittleBrother
         python3 -m pip install -r requirements.txt || { echo "Failed to install LittleBrother dependencies"; add_to_error_log "Failed to install LittleBrother dependencies"; return 1; }
     }
 
     install_OSINTsearch() {
-        cd ..
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (OSINTsearch)"; add_to_error_log "Failed to change directory to tools (OSINTsearch)"; return 1; }
         git clone https://github.com/am0nt31r0/OSINT-Search.git || { echo "Failed to clone OSINT-Search repository"; add_to_error_log "Failed to clone OSINT-Search repository"; return 1; }
         cd OSINT-Search
         pip3 install -r requirements.txt || { echo "Failed to install OSINT-Search dependencies"; add_to_error_log "Failed to install OSINT-Search dependencies"; return 1; }
@@ -196,7 +196,6 @@
     }
 
     install_numspy() {
-        cd ..
         pip3 install numspy || { echo "Failed to install numspy"; add_to_error_log "Failed to install numspy"; return 1; }
     }
 
@@ -205,13 +204,14 @@
     }
 
     install_onioff() {
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (onioff)"; add_to_error_log "Failed to change directory to tools (onioff)"; return 1; }
         git clone https://github.com/k4m4/onioff.git || { echo "Failed to clone onioff repository"; add_to_error_log "Failed to clone onioff repository"; return 1; }
         cd onioff
         pip3 install -r requirements.txt || { echo "Failed to install onioff dependencies"; add_to_error_log "Failed to install onioff dependencies"; return 1; }
     }
 
     install_autosint() {
-        cd ..
+        cd "$HOME/tools" || { echo "Failed to change directory to tools (autosint)"; add_to_error_log "Failed to change directory to tools (autosint)"; return 1; }
         git clone https://github.com/bharshbarger/AutOSINT.git || { echo "Failed to clone AutOSINT repository"; add_to_error_log "Failed to clone AutOSINT repository"; return 1; }
         cd AutOSINT
         python3 -m venv autosint_env || { echo "Failed to create virtual environment for AutOSINT"; add_to_error_log "Failed to create virtual environment for AutOSINT"; return 1; }
@@ -223,7 +223,7 @@
 ### 11. SCRIPT COMPLETION
 
     final_scripts_and_adjustments() {
-        cd
+        cd "$HOME/tools"
 
         # Permissions settings and additional tools
         sudo chmod +x /usr/share/metagoofil/metagoofil.py || { echo "Failed to set executable permissions for metagoofil.py"; add_to_error_log "Failed to set executable permissions for metagoofil.py"; return 1; }
