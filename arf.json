@@ -589,9 +589,19 @@
           "url": "http://www.skymem.info/"
         },
         {
+          "name": "RocketReach (R)",
+          "type": "url",
+          "url": "https://rocketreach.co/person"
+        },
+        {
           "name": "Hunter (R)",
           "type": "url",
           "url": "https://hunter.io/"
+        },
+        {
+          "name": "ContactOut (R)",
+          "type": "url",
+          "url": "https://contactout.com/"
         },
         {
           "name": "theHarvester (T)",
