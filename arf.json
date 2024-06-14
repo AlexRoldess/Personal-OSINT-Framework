@@ -382,6 +382,11 @@
             "url": "https://thispersondoesnotexist.com/"
           },
           {
+            "name": "FaceSwapper",
+            "type": "url",
+            "url": "https://faceswapper.ai/es/swapper"
+          },
+          {
             "name": "1photoai",
             "type": "url",
             "url": "https://1photoai.com/"
