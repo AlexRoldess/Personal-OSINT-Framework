@@ -699,6 +699,11 @@
           "url": "https://gist.github.com/fawazahmed0/79764af8a026a9a5b380728e67f786d4"
         },
         {
+          "name": "QBitTorrent",
+          "type": "url",
+          "url": "https://www.qbittorrent.org/download"
+        },
+        {
           "name": "Hudson Rock",
           "type": "url",
           "url": "https://www.hudsonrock.com/"
