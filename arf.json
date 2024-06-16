@@ -1160,11 +1160,6 @@
             "name": "FB Lookup ID",
             "type": "url",
             "url": "https://lookup-id.com/"
-          },
-          {
-            "name": "Search is Back!",
-            "type": "url",
-            "url": "https://searchisback.com/"
           }],
           "name": "Search",
           "type": "folder"
